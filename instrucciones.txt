@@ -1,0 +1,7 @@
+Para realizar algun cambio tiene que usar los siguientes comandos
+git add -A
+git commit -m "nombre del cambio"
+git push 
+
+Para Actualizar el proyecto debe usar el siguiente comando 
+git pull
