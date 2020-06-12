@@ -4,8 +4,16 @@ $logo-font: 'Amatic SC', cursive;
 
 nav{
 background-color: $navbar-background-color;
+padding-right: 20px;
+width: 75%;
+height: 95px;
+margin-top: 20px;
 
 }
 #nombrelogo {
+    padding-top: 10px;
     font-family: $logo-font;
+    font-size: 48px;
+    position: relative;
+    left: 10%;
 }
