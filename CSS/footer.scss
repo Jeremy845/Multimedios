@@ -1,18 +1,17 @@
 $logo-font: 'Signika';
 
 footer{
+  display:flex;
+  justify-content:center;
     font-size: 18px;
     font-family:$logo-font;
         background: #EDF6FC;
     position: absolute;
   bottom:0.2%;
     width:100%;
-  
+   
 }
-#sect{
-  display:flex;
-  justify-content:center;
-}
-#sect p{
+
+footer p{
     margin: 18px;
 }
