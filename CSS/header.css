@@ -1,3 +1,58 @@
-nav { background-color: #EDF6FC; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; width: 100%; height: 95px; font-family: "Amatic SC", cursive; font-size: 48px; margin-top: 20px; }
+/*  nav principal */
+#navPrin {
+  background-color: #EDF6FC;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-nav .nombrelogo { -webkit-transform: translate(100px, -30px); transform: translate(100px, -30px); }
+/*  cree 2 seccion */
+/*  una seccion a la isquierda */
+#navPrin .izq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  width: 38%;
+}
+
+/*  una seccion a la derecha y le pongo flex
+     por que estan dentro de una seccion
+     */
+#navPrin .der {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  width: 62%;
+  font-size: 20px;
+}
+
+/*  separo un poco los elementos p de la derecha  */
+#navPrin .der p {
+  margin-right: 10%;
+}
+
+#navPrin a {
+  text-decoration: none;
+  color: black;
+}
+
+#navPrin .isq p:hover, #navPrin .der p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=header.css.map */
