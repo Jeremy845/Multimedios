@@ -1,49 +1,58 @@
 $navbar-background-color:#EDF6FC;
 $logo-font: 'Amatic SC', cursive;
+$font-type: 'Signika Negative', sans-serif;
 $text-color:black;
+/* tipo le letra */
+
 
 /*  nav principal */
-#navPrin{
+.navPrin{
     background-color:$navbar-background-color;
 font-family: $logo-font;
 font-size: 30px;
     display:flex;
       justify-content:space-around;
       align-items: center;
+
+       & .izq{
+        display:flex;
+          justify-content:center;
+        background: none;
+          width:38%;
+      }
+      & .der{
+        display:flex;
+       justify-content:center;
+       background:none;
+       width:62%;
+       font-size: 18px;
+       font-family:$font-type;
+     }
+    & .der p{
+
+        margin-right:10%;
+   }
+   & a{
+    text-decoration: none;
+color:black;
+}
+
+& .isq p:hover,#navPrin .der p:hover {
+    transform: scale(1.1);
+}
+
   }
   /*  cree 2 seccion */
 
     /*  una seccion a la isquierda */
-  #navPrin .izq{
-    display:flex;
-      justify-content:center;
-    background:none;
-      width:38%;
-  }
+
   
     /*  una seccion a la derecha y le pongo flex
      por que estan dentro de una seccion
      */
-  #navPrin .der{
-     display:flex;
-    justify-content:center;
-    background:none;
-    width:62%;
-    font-size: 18px;
-    font-family:Signika;
-  }
+
     /*  separo un poco los elementos p de la derecha  */
-  #navPrin .der p{
+ 
 
-       margin-right:10%;
-  }
 
-  #navPrin a{
-        text-decoration: none;
-  color:black;
-  }
-  #navPrin .isq p:hover,#navPrin .der p:hover {
-        transform: scale(1.1);
-  }
-  
 
