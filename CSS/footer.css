@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+footer {
+  font-size: 18px;
+  font-family: "Signika";
+  background: #EDF6FC;
+  position: absolute;
+  bottom: 0.2%;
+  width: 100%;
+}
+
+#sect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sect p {
+  margin: 18px;
+}
+/*# sourceMappingURL=footer.css.map */
