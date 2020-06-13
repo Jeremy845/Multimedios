@@ -6,13 +6,15 @@
 
 .navPrin .izq { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 38%; }
 
-.navPrin .der { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 62%; font-size: 18px; font-family: "Signika Negative", sans-serif; }
+.navPrin .izq p:hover { -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+.navPrin .der { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 62%; font-size: 17px; font-family: "Signika Negative", sans-serif; }
+
+.navPrin .der p:hover { -webkit-transform: scale(1.1); transform: scale(1.1); }
 
 .navPrin .der p { margin-right: 10%; }
 
 .navPrin a { text-decoration: none; color: black; }
-
-.navPrin .isq p:hover, .navPrin #navPrin .der p:hover { -webkit-transform: scale(1.1); transform: scale(1.1); }
 
 /*  cree 2 seccion */
 /*  una seccion a la isquierda */

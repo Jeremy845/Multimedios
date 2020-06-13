@@ -1,18 +1,29 @@
-
-$logo-font: 'Signika';
+$footer-font: 'Signika Negative', sans-serif;;
+$footer-background-color:#EDF6FC;
 
 footer{
   display:flex;
   justify-content:center;
-    font-size: 18px;
-    font-family:$logo-font;
-        background: #EDF6FC;
+    font-size: git17px;
+    font-family:$footer-font;
+        background:$footer-background-color;
     position: absolute;
   bottom:0.3%;
     width:100%;
-   
+   &  p{
+    margin: 18px;
+    
+    & a{
+      text-decoration: none;
+    color:black;
+    }
+
+    }
+    p:hover{
+      transform: scale(1.05);
+    }
+    
 }
 
-footer p{
-    margin: 18px;
-}
+
+

@@ -1,13 +1,55 @@
-.login { width: 450px; padding: 7% 2%; margin: auto; }
+.login {
+  width: 450px;
+  padding: 7% 2%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
 
-.form { background: #EDF6FC; padding: 4%; text-align: center; -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+.login .form {
+  background: #EDF6FC;
+  padding: 4%;
+  text-align: center;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
 
-.login-form { padding: 3%; }
+.login .form input {
+  width: 50%;
+  border: 0;
+  margin: 10px 10px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-#iniciarSesion { -webkit-transform: translate(0px, -20px); transform: translate(0px, -20px); font-size: 19px; }
+.login .form button {
+  text-transform: uppercase;
+  background: #6D79E2;
+  width: 50%;
+  padding: 3%;
+  color: white;
+  font-size: 13px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  position: relative;
+  bottom: -19px;
+}
 
-.login-form input { font-family: "Roboto", sans-serif; width: 50%; border: 0; margin: 10px 10px; padding: 15px; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+.login .form .iniciarSesion {
+  -webkit-transform: translate(0px, -20px);
+          transform: translate(0px, -20px);
+  font-size: 19px;
+}
 
-.form button { font-family: "Roboto", sans-serif; text-transform: uppercase; background: #6D79E2; width: 50%; padding: 3%; color: white; font-size: 13px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; position: relative; bottom: -19px; }
+.login .login-form {
+  padding: 3%;
+}
 
-.message { padding: 10%; }
+.login .message {
+  padding: 10%;
+}
+/*# sourceMappingURL=login.css.map */
