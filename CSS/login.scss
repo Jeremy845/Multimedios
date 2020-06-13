@@ -10,20 +10,31 @@ $text-color:black;
       padding:4%;
       text-align: center;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-     
-      & input {
-        width: 50%;
-        border: 0;
-        margin: 10px 10px;
-        padding: 15px;
-      box-sizing: border-box;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      }
+      
+      & .form-group{
+        display: flex;
+    justify-content:flex-start;
+      background:none;
+        align-items:center;
+  
+        & label{
+          background:none;
+          width: 30%;
+        } 
+        & input {
+          border: 0;
+    margin: 14px 0 14px;
+    padding: 6px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+        }
+      } 
       
       & button {
         text-transform: uppercase;
         background:  #6D79E2;
-        width: 50%;
+        width: 38%;
         padding:3%;
         color: white;
         font-size: 13px;
@@ -31,14 +42,16 @@ $text-color:black;
       box-sizing: border-box;
       border-radius: 20px;
        position:relative;
-        bottom:-19px;     
+        bottom:-19px; 
+        left:18px;
+    
       } 
       & .iniciarSesion{
         transform: translate(0px,-20px);
          font-size:19px;
        }
       
-    }
+  }
     .login-form{
       padding:3%;
      }

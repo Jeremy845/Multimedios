@@ -1,15 +1,60 @@
-.form-tittle { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 30px; font-family: "Signika Negative", sans-serif; padding-top: 20px; }
+.form-tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-family: "Signika Negative", sans-serif;
+  padding-top: 20px;
+}
 
-.signinBox { width: 773px; height: 708px; margin: 75px 344px; background-color: #EDF6FC; }
+.signinBox {
+  width: 773px;
+  height: 708px;
+  margin: 75px 344px;
+  background-color: #EDF6FC;
+}
 
-.signinBox .form { padding: 88px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.signinBox .form {
+  padding: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
-.signinBox .form p { font-family: "Signika Negative", sans-serif; }
+.signinBox .form p {
+  font-family: "Signika Negative", sans-serif;
+}
 
-.signinBox .form .password { padding-top: 50px; margin: auto; }
+.signinBox .form .password {
+  padding-top: 50px;
+  margin: auto;
+}
 
-.signinBox .form .confirm-password { padding-top: 20px; padding-bottom: 20px; }
+.signinBox .form .confirm-password {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-.signinBox .form .signInButton { font-family: "Signika Negative", sans-serif; background-color: #6D79E2; margin-left: 80px; width: 173px; height: 46px; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; }
+.signinBox .form .signInButton {
+  font-family: "Signika Negative", sans-serif;
+  background-color: #6D79E2;
+  margin-left: 80px;
+  width: 173px;
+  height: 46px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
 
-.form-text { margin-left: 300px; }
+.form-text {
+  margin-left: 300px;
+}
+/*# sourceMappingURL=sign_in.css.map */
