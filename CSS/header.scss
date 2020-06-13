@@ -19,14 +19,21 @@ font-size: 30px;
           justify-content:center;
         background: none;
           width:38%;
+          &  p:hover  {
+            transform: scale(1.1);
+          }
       }
       & .der{
         display:flex;
        justify-content:center;
        background:none;
        width:62%;
-       font-size: 18px;
+       font-size: 17px;
        font-family:$font-type;
+       
+       &  p:hover  {
+        transform: scale(1.1);
+      }
      }
     & .der p{
 
@@ -37,9 +44,7 @@ font-size: 30px;
 color:black;
 }
 
-& .isq p:hover,#navPrin .der p:hover {
-    transform: scale(1.1);
-}
+
 
   }
   /*  cree 2 seccion */

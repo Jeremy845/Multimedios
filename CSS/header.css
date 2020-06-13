@@ -1,18 +1,66 @@
 /* tipo le letra */
 /*  nav principal */
-.navPrin { background-color: #EDF6FC; font-family: "Amatic SC", cursive; font-size: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.navPrin {
+  background-color: #EDF6FC;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-.navPrin .izq { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 38%; }
+.navPrin .izq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  width: 38%;
+}
 
-.navPrin .der { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 62%; font-size: 18px; font-family: "Signika Negative", sans-serif; }
+.navPrin .izq p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 
-.navPrin .der p { margin-right: 10%; }
+.navPrin .der {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  width: 62%;
+  font-size: 17px;
+  font-family: "Signika Negative", sans-serif;
+}
 
-.navPrin a { text-decoration: none; color: black; }
+.navPrin .der p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 
-.navPrin .isq p:hover, .navPrin #navPrin .der p:hover { -webkit-transform: scale(1.1); transform: scale(1.1); }
+.navPrin .der p {
+  margin-right: 10%;
+}
+
+.navPrin a {
+  text-decoration: none;
+  color: black;
+}
 
 /*  cree 2 seccion */
 /*  una seccion a la isquierda */
-/*  una seccion a la derecha y le pongo flex por que estan dentro de una seccion */
+/*  una seccion a la derecha y le pongo flex
+     por que estan dentro de una seccion
+     */
 /*  separo un poco los elementos p de la derecha  */
+/*# sourceMappingURL=header.css.map */
