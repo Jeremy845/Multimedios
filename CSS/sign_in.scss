@@ -1,0 +1,58 @@
+$sign-in-form-color : #EDF6FC;
+$fontType:'Signika Negative', sans-serif;
+$button-color: #6D79E2;
+
+.form-tittle{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+    font-family: $fontType;
+    padding-top: 20px;
+}
+.signinBox{
+    
+   width: 773px;
+   height: 708px;
+   margin: 75px 344px; 
+   
+     background-color: $sign-in-form-color;
+    & .form{
+       
+        padding: 88px;
+      display: flex;
+      
+       justify-content: space-between;
+       flex-wrap: wrap;
+       & p{
+        font-family: $fontType;
+      
+    }
+    & .password{
+          padding-top: 50px;
+       
+         margin: auto;
+      
+    }
+    & .confirm-password{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    & .signInButton{
+        font-family: $fontType;
+        background-color: $button-color;
+        margin-left: 80px;
+        width: 173px;
+        height: 46px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+      
+    }
+}
+
+.form-text{
+        
+         margin-left: 300px; 
+           
+}

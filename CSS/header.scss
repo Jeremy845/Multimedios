@@ -2,6 +2,7 @@ $navbar-background-color:#EDF6FC;
 $logo-font: 'Amatic SC', cursive;
 $font-type: 'Signika Negative', sans-serif;
 $text-color:black;
+
 /* tipo le letra */
 
 
@@ -21,6 +22,7 @@ font-size: 30px;
        justify-content: flex-start;
         margin: 10px;
       }
+
      
       
        & .izq{
@@ -44,15 +46,17 @@ font-size: 30px;
        width:62%;
        font-size: 17px;
        font-family:$font-type;
+     
        
        &  p:hover  {
         transform: scale(1.1);
       }
-     }
-    & .der p{
+      & .der p{
 
         margin-left:3%;
    }
+     }
+ 
    & a{
     text-decoration: none;
 color:black;
