@@ -33,11 +33,14 @@ font-size: 30px;
           &  p:hover  {
             transform: scale(1.1);
           }
+          & p{
+
+            margin-left:5%;
+       }
       }
       & .der{
         display:flex;
-       justify-content:space-around;
-       background:none;
+       justify-content:space-evenly;
        width:62%;
        font-size: 17px;
        font-family:$font-type;
@@ -48,7 +51,7 @@ font-size: 30px;
      }
     & .der p{
 
-        margin-left:2%;
+        margin-left:3%;
    }
    & a{
     text-decoration: none;
