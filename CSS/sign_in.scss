@@ -12,9 +12,11 @@ $button-color: #6D79E2;
 }
 .signinBox{
     
-   width: 773px;
+   width: 700px;
    height: 708px;
-   margin: 75px 344px; 
+   margin:10%;
+   
+
    
      background-color: $sign-in-form-color;
     & .form{
