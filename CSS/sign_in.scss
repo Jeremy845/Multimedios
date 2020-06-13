@@ -12,16 +12,16 @@ $button-color: #6D79E2;
 }
 .signinBox{
     
-   width: 700px;
-   height: 708px;
-   margin:10%;
+   width: 680px; 
+   margin:auto;
+   margin-top:50px;
    
 
    
      background-color: $sign-in-form-color;
     & .form{
        
-        padding: 88px;
+        padding:3%;
       display: flex;
       
        justify-content: space-between;

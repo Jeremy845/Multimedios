@@ -11,14 +11,14 @@
 }
 
 .signinBox {
-  width: 700px;
-  height: 708px;
-  margin: 10%;
+  width: 680px;
+  margin: auto;
+  margin-top: 50px;
   background-color: #EDF6FC;
 }
 
 .signinBox .form {
-  padding: 88px;
+  padding: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
