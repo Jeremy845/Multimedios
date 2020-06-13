@@ -1,15 +1,17 @@
-$footer-font: 'Signika Negative', sans-serif;;
+$footer-font: 'Signika Negative', sans-serif;
 $footer-background-color:#EDF6FC;
 
 footer{
   display:flex;
   justify-content:center;
-    font-size: git17px;
+    font-size:17px;
     font-family:$footer-font;
         background:$footer-background-color;
     position: absolute;
-  bottom:0.3%;
-    width:100%;
+  bottom:0.4%;
+  width:100%;
+  
+  
    &  p{
     margin: 18px;
     
