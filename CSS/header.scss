@@ -36,7 +36,7 @@ font-size: 30px;
       }
       & .der{
         display:flex;
-       justify-content:center;
+       justify-content:space-around;
        background:none;
        width:62%;
        font-size: 17px;
@@ -48,7 +48,7 @@ font-size: 30px;
      }
     & .der p{
 
-        margin-right:7%;
+        margin-left:2%;
    }
    & a{
     text-decoration: none;
