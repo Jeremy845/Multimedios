@@ -2,7 +2,7 @@
   width: 450px;
   padding: 6% 2%;
   margin: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: "Signika Negative", sans-serif;
 }
 
 .login .form {
@@ -42,19 +42,17 @@
 }
 
 .login .form button {
-  text-transform: uppercase;
   background: #6D79E2;
   width: 38%;
   padding: 3%;
-  color: white;
-  font-size: 13px;
+  color: black;
   border: 1px solid #000000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 20px;
   position: relative;
   bottom: -19px;
-  left: 18px;
+  left: 4px;
 }
 
 .login .form .iniciarSesion {

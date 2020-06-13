@@ -1,4 +1,4 @@
-$login-font: 'Roboto', sans-serif;
+$login-font:'Signika Negative', sans-serif;
 $text-color:black;
 .login {
     width: 450px;
@@ -32,18 +32,17 @@ $text-color:black;
       } 
       
       & button {
-        text-transform: uppercase;
+        
         background:  #6D79E2;
         width: 38%;
         padding:3%;
-        color: white;
-        font-size: 13px;
+        color:black;
         border: 1px solid #000000;
       box-sizing: border-box;
       border-radius: 20px;
        position:relative;
         bottom:-19px; 
-        left:18px;
+        left:4px;
     
       } 
       & .iniciarSesion{
