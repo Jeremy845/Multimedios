@@ -1,8 +1,10 @@
 /* tipo le letra */
 /*  nav principal */
-.navPrin { background-color: #EDF6FC; font-family: "Amatic SC", cursive; font-size: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.navPrin { margin-top: 50px; margin-left: 50px; margin-right: 50px; background-color: #EDF6FC; font-family: "Amatic SC", cursive; font-size: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.navPrin .izq { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 38%; }
+.navPrin .flex-image { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; margin: 10px; }
+
+.navPrin .izq { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 38%; }
 
 .navPrin .der { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: none; width: 62%; font-size: 18px; font-family: "Signika Negative", sans-serif; }
 

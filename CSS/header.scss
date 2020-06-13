@@ -7,17 +7,28 @@ $text-color:black;
 
 /*  nav principal */
 .navPrin{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
     background-color:$navbar-background-color;
 font-family: $logo-font;
 font-size: 30px;
     display:flex;
       justify-content:space-around;
       align-items: center;
+     & .flex-image{
 
+       justify-content: flex-start;
+        margin: 10px;
+      }
+     
+      
        & .izq{
         display:flex;
-          justify-content:center;
-        background: none;
+        align-items: center;
+      
+        justify-content:center;
+        background:none;
           width:38%;
       }
       & .der{
@@ -27,6 +38,7 @@ font-size: 30px;
        width:62%;
        font-size: 18px;
        font-family:$font-type;
+       
      }
     & .der p{
 

@@ -1,20 +1,30 @@
-
+$font: 'Signika Negative', sans-serif;
 h2{
     text-align: center;
+    font-family: $font;
 }
+
+
 
 .campoTexto{
     background:  #EDF6FC;
     width: 515px;
     margin: auto;
+    & .parrafo {
+        padding: 10px;
+        display: inline-block;
+        width: 200px;
+        font-family: $font;
+        text-align: justify;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-right: 10px;
+        }
+}
+footer{
+ & p{
+     font-family: $font;
+ }
 }
 
-   .parrafo {
-    padding: 10px;
-    display: inline-block;
-    width: 200px;
-    text-align: justify;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-right: 10px;
-    }
+  
