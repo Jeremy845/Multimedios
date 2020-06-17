@@ -10,14 +10,14 @@
   padding-top: 20px;
 }
 
-.signinBox {
-  width: 680px;
+.campo {
+  background: #EDF6FC;
   margin: auto;
   margin-top: 50px;
-  background-color: #EDF6FC;
+  width: 700px;
 }
 
-.signinBox .form {
+.campo .form {
   padding: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,23 +29,24 @@
       flex-wrap: wrap;
 }
 
-.signinBox .form p {
+.campo .form p {
   font-family: "Signika Negative", sans-serif;
 }
 
-.signinBox .form .password {
-  padding-top: 50px;
-  margin: auto;
+.campo .form .organiza {
+  width: 185px;
 }
 
-.signinBox .form .confirm-password {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.campo .form .descrip {
+  margin-top: -25px;
+  margin-left: 3cm;
+  width: 400px;
+  height: 100px;
 }
 
-.signinBox .form .signInButton {
+.campo .form .Button {
   font-family: "Signika Negative", sans-serif;
-  background-color: #6D79E2;
+  background: #6D79E2;
   margin-left: 80px;
   width: 173px;
   height: 46px;
@@ -54,13 +55,7 @@
   border-radius: 20px;
   border: 0;
   outline: none;
+  margin-top: 10mm;
+  margin-left: 12cm;
 }
-
-.form-text {
-  margin-left: 300px;
-}
-
-.footer {
-  margin-top: 50cm;
-}
-/*# sourceMappingURL=sign_in.css.map */
+/*# sourceMappingURL=actividad.css.map */
