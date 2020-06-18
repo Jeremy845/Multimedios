@@ -33,7 +33,7 @@ home
   margin-bottom: 20px;
 }
 
-.artiHome {
+#home .artiHome {
   background: #EDF6FC;
   width: 610px;
   margin: auto;
@@ -42,13 +42,13 @@ home
   margin-top: 20px;
 }
 
-.artiHome p {
+#home .artiHome p {
   width: 140px;
   -webkit-transform: translate(50px);
           transform: translate(50px);
 }
 
-.artiHome .MeApunto {
+#home .artiHome .MeApunto {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #6CCCFA;
@@ -58,7 +58,7 @@ home
   height: 45px;
 }
 
-.artiHome .MeApunto a {
+#home .artiHome .MeApunto a {
   text-decoration: none;
   color: black;
   position: relative;
