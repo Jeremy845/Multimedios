@@ -1,0 +1,74 @@
+/*  
+home  
+
+
+*/
+
+
+
+#footHome{
+    background:grey;
+    text-align:center;
+    margin:20px;
+    padding:40px;
+  }
+  
+  #filtrar{
+    margin-left:30px;
+    background:  #6CCCFA;
+   transform:scale(1.1);
+    width:100px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+  }
+  
+  #home{ 
+   
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+    
+  }
+  
+  .artiHome{
+  background:#EDF6FC;
+    width:610px;
+    margin:auto;
+    padding:10px;
+  border: black 1px solid;
+    margin-top:20px;
+      
+  }
+  
+  
+  .artiHome p{
+      width:140px;
+   transform:translate(50px);
+  }
+  
+  .artiHome .MeApunto{
+    box-sizing: border-box;
+   background: #6CCCFA;
+    border-radius: 20px;
+      color: black;
+    text-align:center;
+    height:45px;
+  } 
+  
+  .artiHome .MeApunto a{
+      text-decoration: none;
+    color: black;
+   position:relative;
+    top:10px;
+  
+  }
+  
+  @media only screen and (max-width:680px) {
+   #home .artiHome{
+    width:92%;
+   
+  }
+  }
