@@ -1,13 +1,61 @@
-.form-tittle { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 30px; font-family: "Signika Negative", sans-serif; padding-top: 20px; }
+.form-tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-family: "Signika Negative", sans-serif;
+  padding-top: 20px;
+}
 
-.campo { background: #EDF6FC; margin: auto; margin-top: 50px; width: 700px; }
+.campo {
+  background: #EDF6FC;
+  margin: auto;
+  margin-top: 50px;
+  width: 700px;
+}
 
-.campo .form { padding: 3%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.campo .form {
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
-.campo .form p { font-family: "Signika Negative", sans-serif; }
+.campo .form p {
+  font-family: "Signika Negative", sans-serif;
+}
 
-.campo .form .organiza { width: 185px; }
+.campo .form .organiza {
+  width: 185px;
+}
 
-.campo .form .descrip { margin-top: -25px; margin-left: 3cm; width: 400px; height: 100px; }
+.campo .form .descrip {
+  margin-top: -25px;
+  margin-left: 3cm;
+  width: 400px;
+  height: 100px;
+}
 
-.campo .form .Button { font-family: "Signika Negative", sans-serif; background: #6D79E2; margin-left: 80px; width: 173px; height: 46px; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; border: 0; outline: none; margin-top: 10mm; margin-left: 12cm; }
+.campo .form .Button {
+  font-family: "Signika Negative", sans-serif;
+  background: #6D79E2;
+  margin-left: 80px;
+  width: 173px;
+  height: 46px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  margin-top: 10mm;
+  margin-left: 12cm;
+}
+/*# sourceMappingURL=actividad.css.map */

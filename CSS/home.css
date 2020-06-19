@@ -1,20 +1,79 @@
 /*  
 home  
-
-
 */
-#footHome { background: grey; text-align: center; margin: 20px; padding: 40px; }
+/*  Es una funcion para los botones*/
+#footHome {
+  background: grey;
+  text-align: center;
+  margin: 20px;
+  padding: 40px;
+}
 
-#filtrar { margin-left: 30px; background: #6CCCFA; -webkit-transform: scale(1.1); transform: scale(1.1); width: 100px; color: black; font-size: 14px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; }
+#filtrar {
+  margin-left: 30px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  width: 100px;
+  background: #6CCCFA;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
 
-#home { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 20px; }
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
+}
 
-#home .artiHome { background: #EDF6FC; width: 610px; margin: auto; padding: 10px; border: black 1px solid; margin-top: 20px; }
+#home .artiHome {
+  background: #EDF6FC;
+  width: 610px;
+  margin: auto;
+  padding: 10px;
+  border: black 1px solid;
+  margin-top: 20px;
+}
 
-#home .artiHome p { width: 140px; -webkit-transform: translate(50px); transform: translate(50px); }
+#home .artiHome p {
+  width: 140px;
+  -webkit-transform: translate(50px);
+          transform: translate(50px);
+}
 
-#home .artiHome .MeApunto { -webkit-box-sizing: border-box; box-sizing: border-box; background: #6CCCFA; border-radius: 20px; color: black; text-align: center; height: 45px; }
+#home .artiHome .MeApunto {
+  background: #6CCCFA;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  height: 45px;
+}
 
-#home .artiHome .MeApunto a { text-decoration: none; color: black; position: relative; top: 10px; }
+#home .artiHome .MeApunto a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 10px;
+}
 
-@media only screen and (max-width: 680px) { #home .artiHome { width: 92%; } }
+#home .artiHome:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+@media only screen and (max-width: 680px) {
+  #home .artiHome {
+    width: 92%;
+  }
+}
+/*# sourceMappingURL=home.css.map */

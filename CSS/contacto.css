@@ -1,7 +1,26 @@
-h2 { text-align: center; font-family: "Signika Negative", sans-serif; }
+h2 {
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+}
 
-.campoTexto { background: #EDF6FC; width: 515px; margin: auto; }
+.campoTexto {
+  background: #EDF6FC;
+  width: 515px;
+  margin: auto;
+}
 
-.campoTexto .parrafo { padding: 10px; display: inline-block; width: 200px; font-family: "Signika Negative", sans-serif; text-align: justify; font-weight: bold; margin-left: 20px; margin-right: 10px; }
+.campoTexto .parrafo {
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+  font-family: "Signika Negative", sans-serif;
+  text-align: justify;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 10px;
+}
 
-footer p { font-family: "Signika Negative", sans-serif; }
+footer p {
+  font-family: "Signika Negative", sans-serif;
+}
+/*# sourceMappingURL=contacto.css.map */

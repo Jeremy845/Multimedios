@@ -1,8 +1,18 @@
 /*  
 home  
-
-
 */
+$letterColor:black;
+
+/*  Es una funcion para los botones*/
+@mixin botones {
+  background:  #6CCCFA;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 20px;
+
+}
 
 
 
@@ -15,14 +25,10 @@ home
   
   #filtrar{
     margin-left:30px;
-    background:  #6CCCFA;
+   
    transform:scale(1.1);
     width:100px;
-    color: black;
-    font-size: 14px;
-    border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 20px;
+   @include botones();
   }
   
   #home{ 
@@ -38,31 +44,31 @@ home
           padding:10px;
         border: black 1px solid;
           margin-top:20px;
-           
+         
           &  p{
             width:140px;
          transform:translate(50px);
         }
         & .MeApunto{
-            box-sizing: border-box;
-           background: #6CCCFA;
-            border-radius: 20px;
-              color: black;
+          @include botones();
             text-align:center;
             height:45px;
 
              & a{
                 text-decoration: none;
-              color: black;
+              color:$letterColor;
              position:relative;
               top:10px;
             
             }
            
           }
-         
+          
         }
-    
+        & .artiHome:hover{
+          transform: scale(1.02);
+  
+          }
   }
   
   @media only screen and (max-width:680px) {
