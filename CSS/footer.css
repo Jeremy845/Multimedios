@@ -1,29 +1,7 @@
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 17px;
-  font-family: "Signika Negative", sans-serif;
-  background: #EDF6FC;
-  position: absolute;
-  bottom: 0.4%;
-  width: 100%;
-}
+footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 17px; font-family: "Signika Negative", sans-serif; background: #EDF6FC; position: absolute; bottom: 0.4%; width: 100%; }
 
-footer p {
-  margin: 18px;
-}
+footer p { margin: 18px; }
 
-footer p a {
-  text-decoration: none;
-  color: black;
-}
+footer p a { text-decoration: none; color: black; }
 
-footer p:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-/*# sourceMappingURL=footer.css.map */
+footer p:hover { -webkit-transform: scale(1.05); transform: scale(1.05); }
