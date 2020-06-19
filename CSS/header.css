@@ -1,12 +1,10 @@
 /* tipo le letra */
 /*  nav principal */
 .navPrin {
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 30px;
   background-color: #EDF6FC;
   font-family: "Amatic SC", cursive;
-  font-size: 30px;
+  font-size: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,8 +58,8 @@
 }
 
 .navPrin .der p:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 
 .navPrin .der .der p {
