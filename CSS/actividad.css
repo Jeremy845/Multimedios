@@ -10,14 +10,14 @@
   padding-top: 20px;
 }
 
-.campo {
+#campo {
   background: #EDF6FC;
   margin: auto;
   margin-top: 50px;
   width: 700px;
 }
 
-.campo .form {
+#campo .form {
   padding: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,22 +29,22 @@
       flex-wrap: wrap;
 }
 
-.campo .form p {
+#campo .form p {
   font-family: "Signika Negative", sans-serif;
 }
 
-.campo .form .organiza {
+#campo .form .organiza {
   width: 185px;
 }
 
-.campo .form .descrip {
+#campo .form .descrip {
   margin-top: -25px;
   margin-left: 3cm;
   width: 400px;
   height: 100px;
 }
 
-.campo .form .Button {
+#campo .form .Button {
   font-family: "Signika Negative", sans-serif;
   background: #6D79E2;
   margin-left: 80px;

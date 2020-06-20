@@ -9,7 +9,7 @@ footer {
   font-family: "Signika Negative", sans-serif;
   background: #EDF6FC;
   position: absolute;
-  bottom: 4px;
+  bottom: 3px;
   width: 100%;
 }
 
@@ -25,5 +25,10 @@ footer p a {
 footer p:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+#footerHome {
+  position: absolute;
+  bottom: inherit;
 }
 /*# sourceMappingURL=footer.css.map */

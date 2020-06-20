@@ -8,7 +8,7 @@ footer{
     font-family:$footer-font;
         background:$footer-background-color;
     position: absolute;
-  bottom:4px;
+  bottom:3px;
   width:100%;
   
   
@@ -25,6 +25,11 @@ footer{
       transform: scale(1.05);
     }
     
+}
+
+#footerHome{
+  position: absolute;
+  bottom:inherit;
 }
 
 
