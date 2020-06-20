@@ -53,7 +53,7 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 62%;
-  font-size: 17px;
+  font-size: 16px;
   font-family: "Signika Negative", sans-serif;
 }
 
@@ -62,8 +62,9 @@
           transform: scale(1.06);
 }
 
-.navPrin .der .der p {
-  margin-left: 3%;
+.navPrin .der p {
+  margin-left: 5px;
+  text-align: center;
 }
 
 .navPrin a {
