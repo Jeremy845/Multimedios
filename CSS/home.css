@@ -3,10 +3,13 @@ home
 */
 /*  Es una funcion para los botones*/
 #headerHome {
-  background: grey;
+  background-image: url(/Images/acti1.jpeg);
   text-align: center;
   margin: 30px;
   padding: 40px;
+  background-size: cover;
+  background-position: top;
+  height: 100px;
 }
 
 #filtrar {
@@ -34,9 +37,9 @@ home
 
 #home .artiHome {
   background: #EDF6FC;
-  width: 610px;
+  width: 600px;
   margin: auto;
-  padding: 10px;
+  padding: 5px;
   border: black 1px solid;
   margin-top: 20px;
 }
@@ -45,6 +48,15 @@ home
   width: 140px;
   -webkit-transform: translate(50px);
           transform: translate(50px);
+}
+
+#home .artiHome img {
+  width: 250px;
+  height: 110px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-left: 30%;
+  margin-top: 30px;
 }
 
 #home .artiHome .MeApunto {
@@ -56,7 +68,9 @@ home
           box-sizing: border-box;
   border-radius: 20px;
   text-align: center;
-  height: 45px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 30%;
 }
 
 #home .artiHome .MeApunto a {
@@ -67,8 +81,8 @@ home
 }
 
 #home .artiHome:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 @media only screen and (max-width: 680px) {
