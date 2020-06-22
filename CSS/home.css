@@ -2,22 +2,92 @@
 home  
 */
 /*  Es una funcion para los botones*/
-#headerHome { background-image: url(/Images/acti1.jpeg); text-align: center; margin: 30px; padding: 40px; background-size: cover; background-position: top; height: 100px; }
+#headerHome {
+  background-image: url(/Images/acti1.jpeg);
+  text-align: center;
+  margin: 30px;
+  padding: 40px;
+  background-size: cover;
+  background-position: top;
+  height: 100px;
+}
 
-#filtrar { margin-left: 30px; -webkit-transform: scale(1.1); transform: scale(1.1); width: 100px; background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; }
+#filtrar {
+  margin-left: 30px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  width: 100px;
+  background: #6CCCFA;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
 
-#home { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 20px; }
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
+}
 
-#home .artiHome { background: #EDF6FC; width: 600px; margin: auto; padding: 5px; border: black 1px solid; margin-top: 20px; }
+#home .artiHome {
+  background: #EDF6FC;
+  width: 600px;
+  margin: auto;
+  padding: 5px;
+  border: black 1px solid;
+  margin-top: 20px;
+}
 
-#home .artiHome p { width: 140px; -webkit-transform: translate(50px); transform: translate(50px); }
+#home .artiHome p {
+  width: 140px;
+  -webkit-transform: translate(50px);
+          transform: translate(50px);
+}
 
-#home .artiHome img { width: 250px; height: 110px; -webkit-transform: scale(1.2); transform: scale(1.2); margin-left: 30%; margin-top: 30px; }
+#home .artiHome img {
+  width: 250px;
+  height: 110px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-left: 30%;
+  margin-top: 30px;
+}
 
-#home .artiHome .MeApunto { background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; text-align: center; height: 40px; margin-top: 40px; margin-left: 30%; }
+#home .artiHome .MeApunto {
+  background: #6CCCFA;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 30%;
+}
 
-#home .artiHome .MeApunto a { text-decoration: none; color: black; position: relative; top: 10px; }
+#home .artiHome .MeApunto a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 10px;
+}
 
-#home .artiHome:hover { -webkit-transform: scale(1.01); transform: scale(1.01); }
+#home .artiHome:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
 
-@media only screen and (max-width: 680px) { #home .artiHome { width: 92%; } }
+@media only screen and (max-width: 680px) {
+  #home .artiHome {
+    width: 92%;
+  }
+}
+/*# sourceMappingURL=home.css.map */
