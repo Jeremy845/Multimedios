@@ -14,7 +14,10 @@ Users.prototype.AddUser= function(){
     url: this.action,
     data:{name:this.name,lastname: this.lastname, number: this.number, email:this.email, password:this.password},
     success:  function(response){
-        alert(response);
+        if(response="correcto"){
+            alert("Datos Insertados");
+        }
+        
     }  
 });
 }
