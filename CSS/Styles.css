@@ -146,4 +146,4 @@ home
 
 .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before { opacity: 1; -webkit-transform: translateY(5px); transform: translateY(5px); /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */ }
 
-body { position: relative; padding-bottom: 10rem; }
+body { position: relative; padding-bottom: 19rem; }
