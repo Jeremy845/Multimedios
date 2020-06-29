@@ -2,7 +2,7 @@ $sign-in-form-color : #EDF6FC;
 $fontType:'Signika Negative', sans-serif;
 $button-color: #6D79E2;
 
-.form-tittle{
+.signinBox__form-tittle{
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -12,14 +12,14 @@ $button-color: #6D79E2;
 }
 .signinBox{
     
-   width: 680px; 
+   width: 600px; 
    margin:auto;
-   margin-top:50px;
+   margin-top:7%;
    
 
    
      background-color: $sign-in-form-color;
-    & .form{
+    & .singinBox__form{
        
         padding:3%;
       display: flex;
@@ -30,17 +30,17 @@ $button-color: #6D79E2;
         font-family: $fontType;
       
     }
-    & .password{
+    & .singin__form-password{
           padding-top: 50px;
        
          margin: auto;
       
     }
-    & .confirm-password{
+    & .singin_form-confirm_password{
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    & .signInButton{
+    & .signIn__Button{
         font-family: $fontType;
         background-color: $button-color;
         margin-left: 80px;
@@ -65,3 +65,8 @@ $button-color: #6D79E2;
 {
     margin-top: 50cm;
 }
+@media only screen and (max-width:680px) {
+   .signinBox{
+         width: auto;
+   }
+   }
