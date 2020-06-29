@@ -41,7 +41,7 @@ border-radius: 20px;
     flex-wrap:wrap;
     margin-bottom:20px;
 
-     .artiHome{
+     .artiHome-hvr-float-shadow{
         background:#EDF6FC;
           width:600px;
           margin:auto;
@@ -50,8 +50,7 @@ border-radius: 20px;
           margin-top:20px;
          
           &  p{
-            width:140px;
-         transform:translate(50px);
+            width:150px;
         }
         & img{
           width:40%; height:50%;
@@ -70,8 +69,6 @@ border-radius: 20px;
              & a{
                 text-decoration: none;
               color:$letterColor;
-             position:relative;
-              top:7px;
             
             }
            
