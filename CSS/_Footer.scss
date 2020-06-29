@@ -7,8 +7,10 @@ footer{
     font-size:17px;
     font-family:$footer-font;
         background:$footer-background-color;
-        position: relative;
-        z-index: 2;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
         width: 100%;
   
   
