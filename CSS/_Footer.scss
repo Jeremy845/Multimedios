@@ -32,5 +32,16 @@ footer{
   bottom:inherit;
 }
 
+#footerAct{
+  position: absolute;
+  bottom: 0cm;
+}
+
+@media only screen and (max-width:680px) {
+  #footerAct{
+    margin-bottom: -17cm;
+  }
+ }
+
 
 

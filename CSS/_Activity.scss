@@ -62,4 +62,22 @@ $button-color: #6D79E2;
     }
  }
 
+ @media only screen and (max-width:680px) {
+    .campo{
+     width: 92%;
+     .form .descrip{
+        width: 92%;
+       }
+    }
+   }
+
+   @media only screen and (max-width:680px) {
+    .campo{
+     width: 92%;
+     .form .Button{
+        margin-left: 6cm;
+       }
+    }
+   }
+
  
