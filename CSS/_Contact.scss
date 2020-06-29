@@ -1,16 +1,16 @@
 $font: 'Signika Negative', sans-serif;
+
 h2{
     text-align: center;
     font-family: $font;
 }
 
-
-
-.campoTexto{
+article{
     background:  #EDF6FC;
     width: 515px;
     margin: auto;
-    & .parrafo {
+    margin-bottom: 30px;
+    & p {
         padding: 10px;
         display: inline-block;
         width: 200px;
@@ -21,6 +21,15 @@ h2{
         margin-right: 10px;
         }
 }
+
+@media only screen and (max-width:680px) {
+    article {
+     width: 92%;
+     p{
+         width: 92%;
+     }
+    }
+   }
 
 
   

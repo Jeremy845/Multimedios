@@ -80,7 +80,8 @@
 .Activity {
   background: #EDF6FC;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   width: 700px;
 }
 
@@ -160,6 +161,7 @@ h2 {
   text-align: center;
   font-family: "Signika Negative", sans-serif;
 }
+<<<<<<< HEAD
 
 .campoTexto {
   background: #EDF6FC;
@@ -176,6 +178,34 @@ h2 {
   font-weight: bold;
   margin-left: 20px;
   margin-right: 10px;
+=======
+
+article {
+  background: #EDF6FC;
+  width: 515px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+article p {
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+  font-family: "Signika Negative", sans-serif;
+  text-align: justify;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 680px) {
+  article {
+    width: 92%;
+  }
+  article p {
+    width: 92%;
+  }
+>>>>>>> bb22eb54152f061d7fe129663bf9f2a890371fdc
 }
 
 footer {
@@ -188,10 +218,15 @@ footer {
   font-size: 17px;
   font-family: "Signika Negative", sans-serif;
   background: #EDF6FC;
+<<<<<<< HEAD
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
+=======
+  position: relative;
+  z-index: 2;
+>>>>>>> bb22eb54152f061d7fe129663bf9f2a890371fdc
   width: 100%;
 }
 
@@ -322,8 +357,13 @@ home
 
 .login {
   width: 450px;
+<<<<<<< HEAD
   margin: auto;
   margin-top: 100px;
+=======
+  padding: 70px;
+  margin: auto;
+>>>>>>> bb22eb54152f061d7fe129663bf9f2a890371fdc
   font-family: "Signika Negative", sans-serif;
 }
 
@@ -507,6 +547,7 @@ home
   transform: translateY(-5px);
   /* move the element up by 5px */
 }
+<<<<<<< HEAD
 
 .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
   opacity: 1;
@@ -519,5 +560,13 @@ body {
   position: relative;
   margin: 0;
   padding-bottom: 10rem;
+=======
+
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+>>>>>>> bb22eb54152f061d7fe129663bf9f2a890371fdc
 }
 /*# sourceMappingURL=Styles.css.map */
