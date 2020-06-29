@@ -77,7 +77,14 @@
      por que estan dentro de una seccion
      */
 /*  separo un poco los elementos p de la derecha  */
-.form-tittle {
+.Activity {
+  background: #EDF6FC;
+  margin: auto;
+  margin-top: 50px;
+  width: 700px;
+}
+
+.Activity .Activity_tittle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,14 +96,7 @@
   padding-top: 20px;
 }
 
-.campo {
-  background: #EDF6FC;
-  margin: auto;
-  margin-top: 50px;
-  width: 700px;
-}
-
-.campo .form {
+.Activity .Activity_attribute {
   padding: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,22 +108,22 @@
       flex-wrap: wrap;
 }
 
-.campo .form p {
+.Activity .Activity_attribute p {
   font-family: "Signika Negative", sans-serif;
 }
 
-.campo .form .organiza {
+.Activity .Activity_attribute .attribute_organization {
   width: 185px;
 }
 
-.campo .form .descrip {
+.Activity .Activity_attribute .attribute_description {
   margin-top: -25px;
   margin-left: 3cm;
   width: 400px;
   height: 100px;
 }
 
-.campo .form .Button {
+.Activity .Activity_attribute .Button {
   font-family: "Signika Negative", sans-serif;
   background: #6D79E2;
   margin-left: 80px;
@@ -139,19 +139,19 @@
 }
 
 @media only screen and (max-width: 680px) {
-  .campo {
+  .Activity {
     width: 92%;
   }
-  .campo .form .descrip {
+  .Activity .Activity_attribute .attribute_description {
     width: 92%;
   }
 }
 
 @media only screen and (max-width: 680px) {
-  .campo {
+  .Activity {
     width: 92%;
   }
-  .campo .form .Button {
+  .Activity .Activity_attribute .Button {
     margin-left: 6cm;
   }
 }
@@ -219,7 +219,7 @@ footer p:hover {
 
 @media only screen and (max-width: 680px) {
   #footerAct {
-    margin-bottom: -17cm;
+    margin-bottom: -13cm;
   }
 }
 
