@@ -73,39 +73,10 @@
 
 /*  cree 2 seccion */
 /*  una seccion a la isquierda */
-/*  una seccion a la derecha y le pongo flex por que estan dentro de una seccion */
+/*  una seccion a la derecha y le pongo flex
+     por que estan dentro de una seccion
+     */
 /*  separo un poco los elementos p de la derecha  */
-<<<<<<< HEAD
-.form-tittle { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 30px; font-family: "Signika Negative", sans-serif; padding-top: 20px; }
-
-.campo { background: #EDF6FC; margin: auto; margin-top: 50px; width: 700px; }
-
-.campo .form { padding: 3%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
-
-.campo .form p { font-family: "Signika Negative", sans-serif; }
-
-.campo .form .organiza { width: 185px; }
-
-.campo .form .descrip { margin-top: -25px; margin-left: 3cm; width: 400px; height: 100px; }
-
-.campo .form .Button { font-family: "Signika Negative", sans-serif; background: #6D79E2; margin-left: 80px; width: 173px; height: 46px; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; border: 0; outline: none; margin-top: 10mm; margin-left: 12cm; }
-
-h2 { text-align: center; font-family: "Signika Negative", sans-serif; }
-
-.campoTexto { background: #EDF6FC; width: 515px; margin: auto; }
-
-.campoTexto .parrafo { padding: 10px; display: inline-block; width: 200px; font-family: "Signika Negative", sans-serif; text-align: justify; font-weight: bold; margin-left: 20px; margin-right: 10px; }
-
-footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 17px; font-family: "Signika Negative", sans-serif; background: #EDF6FC; position: absolute; bottom: 3px; width: 100%; }
-
-footer p { margin: 18px; }
-
-footer p a { text-decoration: none; color: black; }
-
-footer p:hover { -webkit-transform: scale(1.05); transform: scale(1.05); }
-
-#footerHome { position: absolute; bottom: inherit; }
-=======
 .form-tittle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,8 +188,8 @@ footer {
   font-size: 17px;
   font-family: "Signika Negative", sans-serif;
   background: #EDF6FC;
-  position: absolute;
-  bottom: 3px;
+  position: relative;
+  z-index: 2;
   width: 100%;
 }
 
@@ -236,86 +207,28 @@ footer p:hover {
           transform: scale(1.05);
 }
 
-#footerHome {
+/*
+#footerHome{
   position: absolute;
-  bottom: inherit;
+  bottom:inherit;
 }
->>>>>>> 072e4dfb20493f3b7e5d5a79c12ba0c8aa597404
 
-#footerAct {
+#footerAct{
   position: absolute;
   bottom: 0cm;
 }
 
-@media only screen and (max-width: 680px) {
-  #footerAct {
+@media only screen and (max-width:680px) {
+  #footerAct{
     margin-bottom: -17cm;
   }
-}
+ }
 
+*/
 /*  
 home  
 */
 /*  Es una funcion para los botones*/
-<<<<<<< HEAD
-#headerHome { background-image: url(/Images/acti1.jpeg); text-align: center; margin: 30px; padding: 40px; background-size: cover; background-position: top; height: 100px; }
-
-#filtrar { margin-left: 30px; -webkit-transform: scale(1.1); transform: scale(1.1); width: 100px; background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; }
-
-#home { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 20px; }
-
-#home .artiHome { background: #EDF6FC; width: 600px; margin: auto; padding: 5px; border: black 1px solid; margin-top: 20px; }
-
-#home .artiHome p { width: 140px; -webkit-transform: translate(50px); transform: translate(50px); }
-
-#home .artiHome img { width: 250px; height: 110px; -webkit-transform: scale(1.2); transform: scale(1.2); margin-left: 30%; margin-top: 30px; }
-
-#home .artiHome .MeApunto { background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; text-align: center; height: 40px; margin-top: 40px; margin-left: 30%; }
-
-#home .artiHome .MeApunto a { text-decoration: none; color: black; position: relative; top: 10px; }
-
-#home .artiHome:hover { -webkit-transform: scale(1.01); transform: scale(1.01); }
-
-@media only screen and (max-width: 680px) { #home .artiHome { width: 92%; } }
-
-.login { width: 450px; padding: 70px; margin: auto; font-family: "Signika Negative", sans-serif; }
-
-.login .form { background: #EDF6FC; padding: 4%; text-align: center; -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
-
-.login .form .form-group { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; background: none; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-
-.login .form .form-group label { background: none; width: 30%; }
-
-.login .form .form-group input { border: 0; margin: 12px 0 12px; padding: 5px; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-
-.login .form button { background: #6D79E2; width: 38%; padding: 3%; color: black; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; position: relative; bottom: -19px; left: 4px; }
-
-.login .form .iniciarSesion { -webkit-transform: translate(0px, -20px); transform: translate(0px, -20px); font-size: 19px; }
-
-.login .login-form { padding: 3%; }
-
-.login .message { padding: 6%; }
-
-.signinBox__form-tittle { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 30px; font-family: "Signika Negative", sans-serif; padding-top: 20px; }
-
-.signinBox { width: 600px; margin: auto; margin-top: 7%; background-color: #EDF6FC; }
-
-.signinBox .singinBox__form { padding: 3%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
-
-.signinBox .singinBox__form p { font-family: "Signika Negative", sans-serif; }
-
-.signinBox .singinBox__form .singin__form-password { padding-top: 50px; margin: auto; }
-
-.signinBox .singinBox__form .singin_form-confirm_password { padding-top: 20px; padding-bottom: 20px; }
-
-.signinBox .singinBox__form .signIn__Button { font-family: "Signika Negative", sans-serif; background-color: #6D79E2; margin-left: 80px; width: 173px; height: 46px; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; border: 0; outline: none; }
-
-.form-text { margin-left: 300px; }
-
-.footer { margin-top: 50cm; }
-
-@media only screen and (max-width: 680px) { .signinBox { width: auto; } }
-=======
 #headerHome {
   background-image: url(/Images/acti1.jpeg);
   text-align: center;
@@ -476,7 +389,7 @@ home
   padding: 6%;
 }
 
-.form-tittle {
+.signinBox__form-tittle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -489,13 +402,13 @@ home
 }
 
 .signinBox {
-  width: 680px;
+  width: 600px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 7%;
   background-color: #EDF6FC;
 }
 
-.signinBox .form {
+.signinBox .singinBox__form {
   padding: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,21 +420,21 @@ home
       flex-wrap: wrap;
 }
 
-.signinBox .form p {
+.signinBox .singinBox__form p {
   font-family: "Signika Negative", sans-serif;
 }
 
-.signinBox .form .password {
+.signinBox .singinBox__form .singin__form-password {
   padding-top: 50px;
   margin: auto;
 }
 
-.signinBox .form .confirm-password {
+.signinBox .singinBox__form .singin_form-confirm_password {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.signinBox .form .signInButton {
+.signinBox .singinBox__form .signIn__Button {
   font-family: "Signika Negative", sans-serif;
   background-color: #6D79E2;
   margin-left: 80px;
@@ -541,5 +454,10 @@ home
 .footer {
   margin-top: 50cm;
 }
+
+@media only screen and (max-width: 680px) {
+  .signinBox {
+    width: auto;
+  }
+}
 /*# sourceMappingURL=Styles.css.map */
->>>>>>> 072e4dfb20493f3b7e5d5a79c12ba0c8aa597404
