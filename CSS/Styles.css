@@ -275,7 +275,7 @@ home
   margin-bottom: 20px;
 }
 
-#home .artiHome-hvr-float-shadow {
+#home .artiHome {
   background: #EDF6FC;
   width: 600px;
   margin: auto;
@@ -284,11 +284,11 @@ home
   margin-top: 20px;
 }
 
-#home .artiHome-hvr-float-shadow p {
+#home .artiHome p {
   width: 150px;
 }
 
-#home .artiHome-hvr-float-shadow img {
+#home .artiHome img {
   width: 40%;
   height: 50%;
   -webkit-transform: scale(1.2);
@@ -297,7 +297,7 @@ home
   margin-top: 30px;
 }
 
-#home .artiHome-hvr-float-shadow .MeApunto {
+#home .artiHome .MeApunto {
   background: #6CCCFA;
   color: black;
   font-size: 14px;
@@ -311,7 +311,7 @@ home
   margin-left: 30%;
 }
 
-#home .artiHome-hvr-float-shadow .MeApunto a {
+#home .artiHome .MeApunto a {
   text-decoration: none;
   color: black;
 }
