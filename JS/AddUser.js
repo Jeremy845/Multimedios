@@ -16,8 +16,11 @@ Users.prototype.AddUser= function(){
     success:  function(response){
         if(response="correcto"){
             alert("Datos Insertados");
+            
         }
         
-    }  
+    } 
+    
 });
+
 }
