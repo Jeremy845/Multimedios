@@ -26,16 +26,13 @@ font-size: 32px;
         display:flex;
         align-items: center;
       
-        justify-content:center;
+        justify-content:space-evenly;
         background:none;
           width:38%;
           &  p:hover  {
             transform: scale(1.1);
           }
-          & p{
-
-            margin-left:5%;
-       }
+          
       }
       & .der{
         display:flex;
@@ -44,13 +41,14 @@ font-size: 32px;
        font-size: 16px;
        font-family:$font-type;
      
-       
+       align-items: center;
+
        &  p:hover  {
         transform: scale(1.06);
       }
       &  p{
        
-        margin-left:5px;
+        margin:3%;
         text-align:center;
         }
      }
