@@ -48,29 +48,32 @@ border-radius: 20px;
           padding:5px;
         border: black 1px solid;
           margin-top:20px;
-         
-          &  p{
-            width:140px;
-            margin-right:20%;
+           img{
+            width:40%; height:50%;
+            transform:scale(1.2);
+     margin-left:30%;
+      margin-top: 30px;
+  
           }
-        & img{
-          width:40%; height:50%;
-          transform:scale(1.2);
-   margin-left:30%;
-    margin-top: 30px;
-
-        }
-        & .MeApunto{
+            p{
+              display:flex;
+            width:140px;
+            align-items: center;
+          }
+        
+         .MeApunto{
           @include botones();
             text-align:center;
             height:40px;
             margin-top:40px;
-            margin-left:30%;  
+            margin-left:34%;
+  
+
 
              & a{
                 text-decoration: none;
               color:$letterColor;
-            
+              transform:translate(10px);            
             }
            
           }
@@ -85,6 +88,6 @@ border-radius: 20px;
   @media only screen and (max-width:680px) {
    #home .artiHome{
     width:92%;
-   
+    
   }
   }

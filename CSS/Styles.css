@@ -284,11 +284,6 @@ home
   margin-top: 20px;
 }
 
-#home .artiHome p {
-  width: 140px;
-  margin-right: 20%;
-}
-
 #home .artiHome img {
   width: 40%;
   height: 50%;
@@ -296,6 +291,16 @@ home
           transform: scale(1.2);
   margin-left: 30%;
   margin-top: 30px;
+}
+
+#home .artiHome p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 140px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #home .artiHome .MeApunto {
@@ -309,12 +314,14 @@ home
   text-align: center;
   height: 40px;
   margin-top: 40px;
-  margin-left: 30%;
+  margin-left: 34%;
 }
 
 #home .artiHome .MeApunto a {
   text-decoration: none;
   color: black;
+  -webkit-transform: translate(10px);
+          transform: translate(10px);
 }
 
 #home .artiHome:hover {
