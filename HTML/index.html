@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Title Page -->  
+    <title>Home</title>
+ 
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/Styles.css">
+       
+     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+    <script src="../JS/jquery-3.5.1.min.js"></script>
+    
+   <!--  <script src="../JS/functions.js"></script> -->
+
+   <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+       
+    });
+    </script>
+</head>
+
+
+<body>
+    <!--header desde javascript header.html-->
+<header id="header" class="header"></header>
+<!--header-->
+<div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <img src="../Images/acti1.jpeg" height="300" width="550" alt="" />
+    </div>
+    <div class="slide">
+      <img src="../Images/acti3.jpeg" height="300" width="550" alt="" />
+    </div>
+    <div class="slide">
+      <img src="../Images/acti4.jpeg" height="300" width="550" alt="" />
+    </div>
+    <div class="slide">
+      <img src="../Images/acti5.jpeg" height="300" width="550" alt="" />
+    </div>
+    <div class="slide">
+      <img src="../Images/acti2.jpeg" height="300" width="550" alt="" />
+    </div>
+   
+   
+  </div>
+</div>
+ <!--
+<section id="headerHome">
+  NO HAY nada por que lo
+     hice con un backgroun
+    desde CSS es la foto de eve
+  
+  </section>
+  -->
+
+<button id="btn__filter" class="hvr-float-shadow">Filtrar</button>
+
+<main id="home__container">
+  <article class="activity__container hvr-float-shadow" >
+    <p>Nombre Actividad: Estilos de vida saludables </p>
+     <p>Lugar de Actividad: PLaza del pacifico</p>
+     <p>Organizacion: TCU-UCR </p>
+     <p>Contacto: 85901678 ucr.ac.cr</p>
+    
+     <img src="../Images/acti2.jpeg">  </img>
+   
+    <button class="button__activity hvr-float-shadow"  id="btn-abrir-popup" class="btn-abrir-popup">Yo me apunto!</button>
+
+  </article>
+
+  
+  <article class="activity__container hvr-float-shadow" >
+    <p>Nombre Actividad: Estilos de vida saludables </p>
+    <p>Lugar de Actividad: PLaza del pacifico</p>
+    <p>Organizacion: TCU-UCR </p>
+    <p>Contacto: 85901678 ucr.ac.cr</p>
+    
+     <img src="../Images/acti4.jpeg">  </img>
+
+     <button class="button__activity hvr-float-shadow"  id="btn-abrir-popup-1" class="btn-abrir-popup">Yo me apunto!</button>
+    </article>
+  
+    <article class="activity__container hvr-float-shadow" >
+      <p>Nombre Actividad: Estilos de vida saludables </p>
+    <p>Lugar de Actividad: PLaza del pacifico</p>
+    <p>Organizacion: TCU-UCR </p>
+    <p>Contacto: 85901678 ucr.ac.cr</p>
+     <img src="../Images/acti4.jpeg">  </img>
+
+     <button class="button__activity hvr-float-shadow"  id="btn-abrir-popup-2" class="btn-abrir-popup">Yo me apunto!</button>
+    </article>
+  
+    <article class="activity__container hvr-float-shadow" >
+      <p>Nombre Actividad: Estilos de vida saludables </p>
+    <p>Lugar de Actividad: PLaza del pacifico</p>
+    <p>Organizacion: TCU-UCR </p>
+    <p>Contacto: 85901678 ucr.ac.cr</p>
+     <img src="../Images/acti2.jpeg">  </img>
+     <button class="button__activity hvr-float-shadow"  id="btn-abrir-popup-3" class="btn-abrir-popup">Yo me apunto!</button>
+    </article>
+
+ 
+  
+</main>
+  <!--Aqui se crea el popup-->
+	<div class="overlay" id="overlay">
+    <div class="popup" id="popup">
+      <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+      <h3>Gracias por interesarte!</h3>
+      <h4>Pronto te contactaremos.</h4>
+      <form action="">
+        <div class="contenedor-inputs">
+          <input type="text" placeholder="Nombre">
+          <input type="email" placeholder="Correo">
+        </div>
+        <input type="submit" class="btn-submit" value="Apuntame!!">
+      </form>
+    </div>
+  </div>
+  <script src="../JS/popup.js"></script>
+<footer>
+  <p> <a href="#">  Contáctenos: yomeapunto@gmail.com | 85163079</a></p>
+   <p> <a href="contacto.html">¿Quienes Somos? </a> </p>
+  <p> © Todos los derechos reservados 2020 </p>
+</footer>
+
+</body>
+
+</html>

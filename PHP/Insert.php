@@ -10,6 +10,7 @@ $sql= "INSERT INTO `users`( `name`, `lastname`, `email`, `number`, `password`) V
 //echo "realizo el insert";
 $res =mysqli_query($connection, $sql); //mysql_query($sql);
 	if ( isset( $res ) )
+	
 		echo "Sus datos se han registrado correctamente";
 	else
 		echo "Hubo un error al registrar sus datos";

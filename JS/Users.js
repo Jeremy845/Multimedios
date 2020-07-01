@@ -7,8 +7,10 @@ var number= document.getElementById("number").value;
 var password= document.getElementById("pass").value;
 var confirm_password= document.getElementById("confpass").value;
 var user = new Users(name,lastname,number,email,password, "../PHP/Insert.php"); 
+
 user.AddUser();
 console.log(name+" "+lastname+" "+email+" "+number+" "+password+" "+confirm_password);
-
+window.location.href="../HTML/login.html"; 
 }
+
 getData();

@@ -2,20 +2,24 @@
 home  
 */
 $letterColor:black;
-
+$bordercolor: #9495FF;
+$fontType:'Signika Negative', sans-serif;
+$logo-font: 'Amatic SC', cursive;
 /*  Es una funcion para los botones*/
 @mixin botones {
+	font-family:'Signika Negative', sans-serif;
+
   background:  #6CCCFA;
   color: black;
   font-size: 14px;
-  border: 1px solid #000000;
+  border: 1px solid #6CCCFA;
 box-sizing: border-box;
 border-radius: 20px;
 
 }
 
 
-
+/*
 #headerHome{
   background-image:url(/Images/acti1.jpeg);  
     text-align:center;
@@ -24,69 +28,197 @@ border-radius: 20px;
     background-size: cover;
     background-position:top; 
       height:100px;
-  }
+  }*/
   
-  #filtrar{
+  #btn__filter{
+    background-color: #DCE2FC;
     margin-left:30px;
-   
+	cursor:pointer;
    transform:scale(1.1);
     width:100px;
    @include botones();
 
   }
    
-  #home{ 
+  #home__container{ 
    
     display:flex;
     flex-wrap:wrap;
     margin-bottom:20px;
 
-     .artiHome{
+     .activity__container {
         background:#EDF6FC;
           width:600px;
           margin:auto;
           padding:5px;
-        border: black 1px solid;
+          border: 1px solid $bordercolor;
           margin-top:20px;
-         
-          &  p{
-            width:140px;
-         transform:translate(50px);
-        }
-        & img{
-          width:40%; height:50%;
-          transform:scale(1.2);
-   margin-left:30%;
-    margin-top: 30px;
-
-        }
-        & .MeApunto{
+           img{
+            width:40%; height:50%;
+            transform:scale(1.2);
+     margin-left:30%;
+      margin-top: 30px;
+  
+          }
+            p{
+              display:flex;
+            width:240px;
+			align-items: center;
+          }
+        
+         .button__activity{
           @include botones();
-            text-align:center;
+			text-align:center;
+			cursor: pointer;
             height:40px;
-            margin-top:40px;
-            margin-left:30%;  
-
-             & a{
-                text-decoration: none;
-              color:$letterColor;
-             position:relative;
-              top:10px;
-            
-            }
-           
+			margin-top:40px;
+			width: 140px;;
+			margin-left:34%;
           }
           
         }
-        & .artiHome:hover{
+        & .activity__container:hover{
           transform: scale(1.01);
   
           }
   }
   
   @media only screen and (max-width:680px) {
-   #home .artiHome{
+	#home__container .activity__container{
     width:92%;
-   
+    
   }
   }
+
+  /* ------------------------- */
+/* POPUP */
+/* ------------------------- */
+
+.overlay {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+}
+
+.overlay.active {
+	visibility: visible;
+}
+
+.popup {
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.popup .btn-cerrar-popup {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #BBBBBB;
+}
+
+.popup .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+.popup h3 {
+  font-family: $logo-font;
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+
+.popup h4 {
+  font-family: $fontType;
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs {
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+}
+
+.popup form .btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+	background: rgba(94,125,227, .9);
+}
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup.active {	transform: scale(1); opacity: 1; }
+.popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
+.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}

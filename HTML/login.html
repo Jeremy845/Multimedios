@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
    
-    <link rel="stylesheet" href="/CSS/Styles.css">
+    <link rel="stylesheet" href="../CSS/Styles.css">
     
 
     <script src="../JS/jquery-3.5.1.min.js"></script>
-    <script src="../JS/functions.js"></script>
+    <script src="../JS/SearchUser.js"></script>
+    <script src="../JS/UserLogIn.js"></script>
+   <!--  <script src="../JS/functions.js"></script> -->
 
+   <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+       
+    });
+    </script>
 
-
-    <title>Ingresa</title>
+    <title>Login</title>
 </head>
 <body>
     <!--header desde javascript header.html-->
@@ -23,17 +30,18 @@
 <!--header-->
 
         <main class="login">
-            <section class="form">
-                <form class="login-form">
-                  <p class="iniciarSesion"> Iniciar Sesión</p>
-                  <section class="form-group">
-                    <label> Email  </label> <input type="text" />
+            <section class="login__container">
+                <form class="login__form">
+                  <p class="login__title"> Iniciar Sesión</p>
+                  <section class="form__group">
+                    <label> Email  </label> 
+                    <input id="email" type="text" >
                           </section>
-                    <section class="form-group">
-                    <label> Contraseña </label> <input type="password"/>
+                    <section class="form__group">
+                    <label> Contraseña </label> <input id="password" type="password">
                        </section>
-                  <button>Ingresar</button>
-                  <p class="message">No tienes cuenta? <a href="/HTML/sign_in.html">Crear Cuenta</a></p>
+                  <button onclick="getLoginData()" class="hvr-float-shadow">Ingresar</button>
+                  <p class="message ">No tienes cuenta? <a href="../HTML/sign_in.html" class="hvr-float-shadow">Crear Cuenta</a></p>
                 </form>
               </section>
             </main>
