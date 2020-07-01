@@ -22,7 +22,7 @@ font-size: 30px;
 
      
       
-       & .main__nav_left{
+       & .main__nav--left{
         display:flex;
         align-items: center;
         justify-content:space-evenly;
@@ -33,7 +33,7 @@ font-size: 30px;
           }
           
       }
-      & .main__nav_right{
+      & .main__nav--right{
         display:flex;
        justify-content:space-evenly;
        width:62%;

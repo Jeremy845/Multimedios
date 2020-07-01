@@ -22,7 +22,7 @@
   margin: 10px;
 }
 
-.main__nav .main__nav_left {
+.main__nav .main__nav--left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,12 +35,12 @@
   width: 38%;
 }
 
-.main__nav .main__nav_left p:hover {
+.main__nav .main__nav--left p:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.main__nav .main__nav_right {
+.main__nav .main__nav--right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,12 +55,12 @@
           align-items: center;
 }
 
-.main__nav .main__nav_right p:hover {
+.main__nav .main__nav--right p:hover {
   -webkit-transform: scale(1.06);
           transform: scale(1.06);
 }
 
-.main__nav .main__nav_right p {
+.main__nav .main__nav--right p {
   text-align: center;
 }
 
@@ -802,7 +802,7 @@ home
 
 body {
   position: relative;
-  padding-bottom: 9rem;
   margin: 0;
+  padding-bottom: 9rem;
 }
 /*# sourceMappingURL=Styles.css.map */
