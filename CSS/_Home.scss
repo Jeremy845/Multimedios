@@ -30,7 +30,7 @@ border-radius: 20px;
       height:100px;
   }*/
   
-  #filtrar{
+  #btn__filter{
     background-color: #DCE2FC;
     margin-left:30px;
 	cursor:pointer;
@@ -40,13 +40,13 @@ border-radius: 20px;
 
   }
    
-  #home{ 
+  #home__container{ 
    
     display:flex;
     flex-wrap:wrap;
     margin-bottom:20px;
 
-     .artiHome {
+     .activity__container {
         background:#EDF6FC;
           width:600px;
           margin:auto;
@@ -66,7 +66,7 @@ border-radius: 20px;
 			align-items: center;
           }
         
-         .button__article{
+         .button__activity{
           @include botones();
 			text-align:center;
 			cursor: pointer;
@@ -77,14 +77,14 @@ border-radius: 20px;
           }
           
         }
-        & .artiHome:hover{
+        & .activity__container:hover{
           transform: scale(1.01);
   
           }
   }
   
   @media only screen and (max-width:680px) {
-   #home .artiHome{
+	#home__container .activity__container{
     width:92%;
     
   }
