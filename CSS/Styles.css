@@ -1,10 +1,10 @@
 /* tipo le letra */
 /*  nav principal */
-.navPrin {
-  margin: 30px;
+.main__nav {
+  margin: 0px;
   background-color: #EDF6FC;
   font-family: "Amatic SC", cursive;
-  font-size: 32px;
+  font-size: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,14 +15,14 @@
           align-items: center;
 }
 
-.navPrin .flex-image {
+.main__nav .flex-image {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin: 10px;
 }
 
-.navPrin .izq {
+.main__nav .main__nav_left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,16 +32,15 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background: none;
   width: 38%;
 }
 
-.navPrin .izq p:hover {
+.main__nav .main__nav_left p:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.navPrin .der {
+.main__nav .main__nav_right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,27 +55,20 @@
           align-items: center;
 }
 
-.navPrin .der p:hover {
+.main__nav .main__nav_right p:hover {
   -webkit-transform: scale(1.06);
           transform: scale(1.06);
 }
 
-.navPrin .der p {
-  margin: 3%;
+.main__nav .main__nav_right p {
   text-align: center;
 }
 
-.navPrin a {
+.main__nav a {
   text-decoration: none;
   color: black;
 }
 
-/*  cree 2 seccion */
-/*  una seccion a la isquierda */
-/*  una seccion a la derecha y le pongo flex
-     por que estan dentro de una seccion
-     */
-/*  separo un poco los elementos p de la derecha  */
 .Activity {
   background: #EDF6FC;
   margin: auto;

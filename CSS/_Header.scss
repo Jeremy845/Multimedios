@@ -7,11 +7,11 @@ $text-color:black;
 
 
 /*  nav principal */
-.navPrin{
-  margin:30px;
+.main__nav{
+  margin:0px;
     background-color:$navbar-background-color;
 font-family: $logo-font;
-font-size: 32px;
+font-size: 30px;
     display:flex;
       justify-content:space-around;
       align-items: center;
@@ -22,33 +22,29 @@ font-size: 32px;
 
      
       
-       & .izq{
+       & .main__nav_left{
         display:flex;
         align-items: center;
-      
         justify-content:space-evenly;
-        background:none;
+        
           width:38%;
           &  p:hover  {
             transform: scale(1.1);
           }
           
       }
-      & .der{
+      & .main__nav_right{
         display:flex;
        justify-content:space-evenly;
        width:62%;
        font-size: 16px;
        font-family:$font-type;
-     
-       align-items: center;
+       align-items:center;
 
        &  p:hover  {
         transform: scale(1.06);
       }
       &  p{
-       
-        margin:3%;
         text-align:center;
         }
      }
@@ -60,14 +56,4 @@ color:$text-color;
 }
 
   }
-  /*  cree 2 seccion */
-
-    /*  una seccion a la isquierda */
-
   
-    /*  una seccion a la derecha y le pongo flex
-     por que estan dentro de una seccion
-     */
-
-    /*  separo un poco los elementos p de la derecha  */
- 
