@@ -79,19 +79,18 @@ footer p:hover { -webkit-transform: scale(1.05); transform: scale(1.05); }
 home  
 */
 /*  Es una funcion para los botones*/
-#headerHome { background-image: url(/Images/acti1.jpeg); text-align: center; margin: 30px; padding: 40px; background-size: cover; background-position: top; height: 100px; }
-
-#filtrar { margin-left: 30px; -webkit-transform: scale(1.1); transform: scale(1.1); width: 100px; background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; }
+/* #headerHome{ background-image:url(/Images/acti1.jpeg);   text-align:center; margin:30px; padding:40px; background-size: cover; background-position:top;  height:100px; }*/
+#filtrar { background-color: #DCE2FC; margin-left: 30px; font-family: "Signika Negative", sans-serif; -webkit-transform: scale(1.1); transform: scale(1.1); width: 100px; background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #6CCCFA; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; }
 
 #home { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 20px; }
 
-#home .artiHome { background: #EDF6FC; width: 600px; margin: auto; padding: 5px; border: black 1px solid; margin-top: 20px; }
+#home .artiHome { background: #EDF6FC; width: 600px; margin: auto; padding: 5px; border: 1px solid #9495FF; margin-top: 20px; }
 
 #home .artiHome img { width: 40%; height: 50%; -webkit-transform: scale(1.2); transform: scale(1.2); margin-left: 30%; margin-top: 30px; }
 
 #home .artiHome p { display: -webkit-box; display: -ms-flexbox; display: flex; width: 140px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-#home .artiHome .MeApunto { background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #000000; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; text-align: center; height: 40px; margin-top: 40px; margin-left: 34%; }
+#home .artiHome .MeApunto { background: #6CCCFA; color: black; font-size: 14px; border: 1px solid #6CCCFA; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 20px; text-align: center; height: 40px; margin-top: 40px; margin-left: 34%; }
 
 #home .artiHome .MeApunto a { text-decoration: none; color: black; -webkit-transform: translate(10px); transform: translate(10px); }
 
@@ -112,9 +111,9 @@ home
 
 .popup .btn-cerrar-popup:hover { color: #000; }
 
-.popup h3 { font-size: 36px; font-weight: 600; margin-bottom: 10px; opacity: 0; }
+.popup h3 { font-family: "Amatic SC", cursive; font-size: 36px; font-weight: 600; margin-bottom: 10px; opacity: 0; }
 
-.popup h4 { font-size: 26px; font-weight: 300; margin-bottom: 40px; opacity: 0; }
+.popup h4 { font-family: "Signika Negative", sans-serif; font-size: 26px; font-weight: 300; margin-bottom: 40px; opacity: 0; }
 
 .popup form .contenedor-inputs { opacity: 0; }
 
@@ -211,5 +210,29 @@ home
 .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active { -webkit-transform: translateY(-5px); transform: translateY(-5px); /* move the element up by 5px */ }
 
 .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before { opacity: 1; -webkit-transform: translateY(5px); transform: translateY(5px); /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */ }
+
+/*body {
+	align-items: center;
+
+
+	height: 50%;
+
+}*/
+@-webkit-keyframes scroll { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { -webkit-transform: translateX(calc(-200px *3)); transform: translateX(calc(-200px *3)); } }
+@keyframes scroll { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { -webkit-transform: translateX(calc(-200px *3)); transform: translateX(calc(-200px *3)); } }
+
+.slider { -webkit-box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); height: 400px; margin: auto; overflow: hidden; position: relative; width: 100%; }
+
+.slider::before, .slider::after { content: ""; height: 100px; position: absolute; width: 200px; z-index: 2; }
+
+.slider::after { right: 0; top: 0; -webkit-transform: rotateZ(180deg); transform: rotateZ(180deg); }
+
+.slider::before { left: 0; top: 0; }
+
+.slider .slide-track { -webkit-animation: scroll 10s linear infinite; animation: scroll 10s linear infinite; display: -webkit-box; display: -ms-flexbox; display: flex; width: calc(350px * 6); }
+
+.slider .slide { height: 500px; width: 550px; }
 
 body { position: relative; padding-bottom: 9rem; margin: 0; }

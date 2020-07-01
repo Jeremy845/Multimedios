@@ -2,20 +2,22 @@
 home  
 */
 $letterColor:black;
-
+$bordercolor: #9495FF;
+$fontType:'Signika Negative', sans-serif;
+$logo-font: 'Amatic SC', cursive;
 /*  Es una funcion para los botones*/
 @mixin botones {
   background:  #6CCCFA;
   color: black;
   font-size: 14px;
-  border: 1px solid #000000;
+  border: 1px solid #6CCCFA;
 box-sizing: border-box;
 border-radius: 20px;
 
 }
 
 
-
+/*
 #headerHome{
   background-image:url(/Images/acti1.jpeg);  
     text-align:center;
@@ -24,10 +26,12 @@ border-radius: 20px;
     background-size: cover;
     background-position:top; 
       height:100px;
-  }
+  }*/
   
   #filtrar{
+    background-color: #DCE2FC;
     margin-left:30px;
+    font-family: $fontType ;
    
    transform:scale(1.1);
     width:100px;
@@ -46,7 +50,7 @@ border-radius: 20px;
           width:600px;
           margin:auto;
           padding:5px;
-        border: black 1px solid;
+          border: 1px solid $bordercolor;
           margin-top:20px;
            img{
             width:40%; height:50%;
@@ -141,6 +145,7 @@ border-radius: 20px;
 }
 
 .popup h3 {
+  font-family: $logo-font;
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 10px;
@@ -148,6 +153,7 @@ border-radius: 20px;
 }
 
 .popup h4 {
+  font-family: $fontType;
 	font-size: 26px;
 	font-weight: 300;
 	margin-bottom: 40px;
