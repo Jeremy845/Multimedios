@@ -59,6 +59,14 @@ $text-color:black;
       }
     
 }
+
+@media only screen and (max-width:680px) {
+  .login {
+    width: 92%;
+    display: flex;
+  align-items: center;
+  }
+ }
   
   
   

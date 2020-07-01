@@ -400,6 +400,18 @@ home
   padding: 6%;
 }
 
+@media only screen and (max-width: 680px) {
+  .login {
+    width: 92%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .signinBox__form-tittle {
   display: -webkit-box;
   display: -ms-flexbox;
