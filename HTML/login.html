@@ -30,18 +30,18 @@
 <!--header-->
 
         <main class="login">
-            <section class="form">
-                <form class="login-form">
-                  <p class="iniciarSesion"> Iniciar Sesión</p>
-                  <section class="form-group">
+            <section class="login__container">
+                <form class="login__form">
+                  <p class="login__title"> Iniciar Sesión</p>
+                  <section class="form__group">
                     <label> Email  </label> 
                     <input id="email" type="text" >
                           </section>
-                    <section class="form-group">
+                    <section class="form__group">
                     <label> Contraseña </label> <input id="password" type="password">
                        </section>
-                  <button onclick="getLoginData()">Ingresar</button>
-                  <p class="message">No tienes cuenta? <a href="../HTML/sign_in.html">Crear Cuenta</a></p>
+                  <button onclick="getLoginData()" class="hvr-float-shadow">Ingresar</button>
+                  <p class="message ">No tienes cuenta? <a href="../HTML/sign_in.html" class="hvr-float-shadow">Crear Cuenta</a></p>
                 </form>
               </section>
             </main>

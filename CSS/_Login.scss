@@ -5,20 +5,19 @@ $text-color:black;
     margin: auto;
     margin-top:100px;
     font-family:$login-font;
-    .form {
+    .login__container {
       background:#EDF6FC;
       padding:4%;
       text-align: center;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-      
-      & .form-group{
+      margin-bottom:20px;
+      & .form__group{
         display: flex;
     justify-content:flex-start;
       background:none;
         align-items:center;
   
         & label{
-          background:none;
           width: 30%;
         } 
         & input {
@@ -43,15 +42,18 @@ $text-color:black;
        position:relative;
         bottom:-19px; 
         left:4px;
+        border:0;
+        outline: none;
+        cursor: pointer;
     
       } 
-      & .iniciarSesion{
+      & .login__title{
         transform: translate(0px,-20px);
          font-size:19px;
        }
       
   }
-    .login-form{
+    .login__form{
       padding:3%;
      }
       .message{
@@ -59,6 +61,7 @@ $text-color:black;
       }
     
 }
+
   
   
   

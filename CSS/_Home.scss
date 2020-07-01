@@ -7,6 +7,8 @@ $fontType:'Signika Negative', sans-serif;
 $logo-font: 'Amatic SC', cursive;
 /*  Es una funcion para los botones*/
 @mixin botones {
+	font-family:'Signika Negative', sans-serif;
+
   background:  #6CCCFA;
   color: black;
   font-size: 14px;
@@ -31,8 +33,7 @@ border-radius: 20px;
   #filtrar{
     background-color: #DCE2FC;
     margin-left:30px;
-    font-family: $fontType ;
-   
+	cursor:pointer;
    transform:scale(1.1);
     width:100px;
    @include botones();
@@ -61,25 +62,18 @@ border-radius: 20px;
           }
             p{
               display:flex;
-            width:140px;
-            align-items: center;
+            width:240px;
+			align-items: center;
           }
         
-         .MeApunto{
+         .button__article{
           @include botones();
-            text-align:center;
+			text-align:center;
+			cursor: pointer;
             height:40px;
-            margin-top:40px;
-            margin-left:34%;
-  
-
-
-             & a{
-                text-decoration: none;
-              color:$letterColor;
-              transform:translate(10px);            
-            }
-           
+			margin-top:40px;
+			width: 140px;;
+			margin-left:34%;
           }
           
         }

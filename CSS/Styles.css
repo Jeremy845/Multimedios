@@ -196,6 +196,9 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer p {
@@ -247,10 +250,11 @@ home
 #filtrar {
   background-color: #DCE2FC;
   margin-left: 30px;
-  font-family: "Signika Negative", sans-serif;
+  cursor: pointer;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   width: 100px;
+  font-family: 'Signika Negative', sans-serif;
   background: #6CCCFA;
   color: black;
   font-size: 14px;
@@ -291,13 +295,14 @@ home
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 140px;
+  width: 240px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#home .artiHome .MeApunto {
+#home .artiHome .button__article {
+  font-family: 'Signika Negative', sans-serif;
   background: #6CCCFA;
   color: black;
   font-size: 14px;
@@ -306,16 +311,11 @@ home
           box-sizing: border-box;
   border-radius: 20px;
   text-align: center;
+  cursor: pointer;
   height: 40px;
   margin-top: 40px;
+  width: 140px;
   margin-left: 34%;
-}
-
-#home .artiHome .MeApunto a {
-  text-decoration: none;
-  color: black;
-  -webkit-transform: translate(10px);
-          transform: translate(10px);
 }
 
 #home .artiHome:hover {
@@ -535,15 +535,16 @@ home
   font-family: "Signika Negative", sans-serif;
 }
 
-.login .form {
+.login .login__container {
   background: #EDF6FC;
   padding: 4%;
   text-align: center;
   -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-bottom: 20px;
 }
 
-.login .form .form-group {
+.login .login__container .form__group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -556,12 +557,11 @@ home
           align-items: center;
 }
 
-.login .form .form-group label {
-  background: none;
+.login .login__container .form__group label {
   width: 30%;
 }
 
-.login .form .form-group input {
+.login .login__container .form__group input {
   border: 0;
   margin: 12px 0 12px;
   padding: 5px;
@@ -571,7 +571,7 @@ home
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.login .form button {
+.login .login__container button {
   background: #6D79E2;
   width: 38%;
   padding: 3%;
@@ -583,15 +583,18 @@ home
   position: relative;
   bottom: -19px;
   left: 4px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 }
 
-.login .form .iniciarSesion {
+.login .login__container .login__title {
   -webkit-transform: translate(0px, -20px);
           transform: translate(0px, -20px);
   font-size: 19px;
 }
 
-.login .login-form {
+.login .login__form {
   padding: 3%;
 }
 
