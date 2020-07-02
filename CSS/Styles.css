@@ -163,7 +163,7 @@ article {
 }
 
 article p {
-  margin: 16px;
+  padding: 10px;
   width: 200px;
   font-family: "Signika Negative", sans-serif;
   text-align: justify;

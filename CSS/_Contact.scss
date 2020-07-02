@@ -13,9 +13,9 @@ article{
     margin: auto;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
     & p {
-        margin: 16px;
+        padding:10px;
         width: 200px;
         font-family: $font;
         text-align: justify;
