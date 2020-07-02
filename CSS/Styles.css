@@ -145,24 +145,28 @@
 h2 {
   text-align: center;
   font-family: "Signika Negative", sans-serif;
+  margin-top: 50px;
 }
 
 article {
   background: #EDF6FC;
-  width: 515px;
+  width: 500px;
   margin: auto;
-  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 article p {
-  padding: 10px;
-  display: inline-block;
+  margin: 16px;
   width: 200px;
   font-family: "Signika Negative", sans-serif;
   text-align: justify;
-  font-weight: bold;
-  margin-left: 20px;
-  margin-right: 10px;
 }
 
 @media only screen and (max-width: 680px) {
