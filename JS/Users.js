@@ -10,7 +10,7 @@ var user = new Users(name,lastname,number,email,password, "../PHP/Insert.php");
 
 user.AddUser();
 console.log(name+" "+lastname+" "+email+" "+number+" "+password+" "+confirm_password);
-window.location.href="../HTML/login.html"; 
+//window.location.href="../HTML/login.html"; 
 }
 
-getData();
+//getData();
