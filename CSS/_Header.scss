@@ -10,17 +10,15 @@ $text-color:black;
 
 /*  nav principal */
 .main__nav {
-  margin: 0px;
   background-color: $navbar-background-color;
   font-family: $logo-font;
   font-size: 30px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-
+  height:95px;
+  
   & .flex-image {
     justify-content: flex-start;
-    margin: 10px;
   }
 
 
@@ -28,9 +26,9 @@ $text-color:black;
   & .main__nav--left {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 
-    width: 38%;
+    width: 35%;
 
     & a:hover {
       transform: scale(1.1);
@@ -41,7 +39,7 @@ $text-color:black;
   & .main__nav--right {
     display: flex;
     justify-content: space-evenly;
-    width: 62%;
+    width: 65%;
     font-size: 16px;
     font-family: $font-type;
     align-items: center;

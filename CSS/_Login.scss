@@ -5,7 +5,7 @@ $text-color:black;
 .login {
   width: 450px;
   margin: auto;
-  margin-top: 100px;
+  margin-top:100px;
   font-family: $login-font;
 
   .login__container {
@@ -13,7 +13,7 @@ $text-color:black;
     padding: 4%;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    margin-bottom: 20px;
+    margin-bottom: 2.3rem;
 
     & .form__group {
       display: flex;
