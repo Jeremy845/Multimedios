@@ -69,15 +69,14 @@
   color: black;
 }
 
-.Activity {
+.activity {
   background: #EDF6FC;
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 50px;
   width: 700px;
 }
 
-.Activity .Activity_tittle {
+.activity .activity__tittle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +88,7 @@
   padding-top: 20px;
 }
 
-.Activity .Activity_attribute {
+.activity .activity__attribute {
   padding: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,22 +100,22 @@
       flex-wrap: wrap;
 }
 
-.Activity .Activity_attribute p {
+.activity .activity__attribute p {
   font-family: "Signika Negative", sans-serif;
 }
 
-.Activity .Activity_attribute .attribute_organization {
+.activity .activity__attribute .attribute__organization {
   width: 185px;
 }
 
-.Activity .Activity_attribute .attribute_description {
+.activity .activity__attribute .attribute__description {
   margin-top: -25px;
   margin-left: 3cm;
   width: 400px;
   height: 100px;
 }
 
-.Activity .Activity_attribute .Button {
+.activity .activity__attribute .button {
   font-family: "Signika Negative", sans-serif;
   background: #6D79E2;
   margin-left: 80px;
@@ -132,19 +131,19 @@
 }
 
 @media only screen and (max-width: 680px) {
-  .Activity {
+  .activity {
     width: 92%;
   }
-  .Activity .Activity_attribute .attribute_description {
+  .activity .activity__attribute .attribute__description {
     width: 92%;
   }
 }
 
 @media only screen and (max-width: 680px) {
-  .Activity {
+  .activity {
     width: 92%;
   }
-  .Activity .Activity_attribute .Button {
+  .activity .activity__attribute .button {
     margin-left: 6cm;
   }
 }

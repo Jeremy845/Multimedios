@@ -23,14 +23,17 @@ article{
         }
 }
 
-@media only screen and (max-width:680px) {
-    article {
+@media only screen and (max-width:680px) 
+{
+  article 
+  {
+   width: 92%;
+    p
+    {
      width: 92%;
-     p{
-         width: 92%;
-     }
     }
    }
+}
 
 
   

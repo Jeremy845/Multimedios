@@ -2,15 +2,14 @@ $sign-in-form-color : #EDF6FC;
 $fontType:'Signika Negative', sans-serif;
 $button-color: #6D79E2;
 
-.Activity
+.activity
 {
    background: $sign-in-form-color ;
    margin: auto;
-   margin-top: 100px;
-   margin-bottom: 50px;
+   margin-top: 50px;
    width: 700px;
     
-   .Activity_tittle 
+   .activity__tittle 
    {
     display: flex;
     justify-content: center;
@@ -18,7 +17,7 @@ $button-color: #6D79E2;
     font-family: $fontType;
     padding-top: 20px;
    }
-   .Activity_attribute
+   .activity__attribute
    {
     padding:3%;
     display: flex;
@@ -28,18 +27,18 @@ $button-color: #6D79E2;
     {
      font-family: $fontType;
     }
-    .attribute_organization 
+    .attribute__organization 
     {
      width: 185px;
     }
-    .attribute_description
+    .attribute__description
     {
      margin-top: -25px;
      margin-left: 3cm;
      width: 400px;
      height: 100px;     
     }
-    .Button
+    .button
     {
      font-family: $fontType;
      background: $button-color;
@@ -58,10 +57,10 @@ $button-color: #6D79E2;
 
 @media only screen and (max-width:680px) 
 {
- .Activity
+ .activity
  {
   width: 92%;
-  .Activity_attribute .attribute_description
+  .activity__attribute .attribute__description
   {
    width: 92%;
   }
@@ -70,10 +69,10 @@ $button-color: #6D79E2;
 
 @media only screen and (max-width:680px) 
 {
- .Activity
+ .activity
  {
    width: 92%;
-   .Activity_attribute .Button
+   .activity__attribute .button
    {
     margin-left: 6cm;
    }

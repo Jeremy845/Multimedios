@@ -15,28 +15,49 @@
     <script src="../JS/UserLogIn.js"></script>
    <!--  <script src="../JS/functions.js"></script> -->
 
+   <!-- 
    <script> 
     $(function(){
       $("#header").load("header.html"); 
        
     });
     </script>
+     -->
 
     <title>Login</title>
 </head>
 <body>
     <!--header desde javascript header.html-->
-<header id="header"></header>
+<header >
+  <nav class="main__nav">
+    <section class="main__nav--left">
+     <a class="" href="">
+      <img class="flex-image hvr-float-shadow" width="72px" height="73px" src="/Images/Imagen1.png" alt="Yo me apunto!">
+     </a>
+            
+     <p> <a  href="index.html"> YO ME APUNTO!</a></p>
+           </section>
+         <section class="main__nav--right">
+           
+           <p> <a  href="index.html">Inicio </a></p>
+           <p><a  href="contacto.html"> ¿Quienes Somos? </a></p>
+           <p > <a id="userName" href="login.html">Iniciar Sesión </a></p>
+           <img class="flex-fbIcon hvr-float-shadow" width="48 px" height="51 px" src="/Images/FB_Icon.png" alt="Facebook">
+           <img class="48 px hvr-float-shadow" height="51 px" src="/Images/IG_Icon.png" alt="Instagram">
+         </section>
+   </nav>
+
+</header>
 <!--header-->
 
-        <main class="login">
-            <section class="login__container">
-                <form class="login__form">
-                  <p class="login__title"> Iniciar Sesión</p>
-                  <section class="form__group">
-                    <label> Email  </label> 
-                    <input id="email" type="text" >
-                          </section>
+<main class="login">
+  <section class="login__container">
+    <form class="login__form">
+     <p class="login__title"> Iniciar Sesión</p>
+  <section class="form__group">
+   <label> Email  </label> 
+    <input id="email" type="text" >
+     </section>
                     <section class="form__group">
                     <label> Contraseña </label> <input id="password" type="password">
                        </section>
