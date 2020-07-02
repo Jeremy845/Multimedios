@@ -2,83 +2,81 @@ $sign-in-form-color : #EDF6FC;
 $fontType:'Signika Negative', sans-serif;
 $button-color: #6D79E2;
 
-.Activity
- {
-    background: $sign-in-form-color ;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    width: 700px;
+.activity
+{
+   background: $sign-in-form-color ;
+   margin: auto;
+   margin-top: 50px;
+   width: 700px;
     
-    .Activity_tittle 
+   .activity__tittle 
    {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    
     font-family: $fontType;
     padding-top: 20px;
    }
-    .Activity_attribute
-     {
-        padding:3%;
-      display: flex;
-      
-       justify-content: space-between;
-       flex-wrap: wrap;
-
-       p
-        {
-        font-family: $fontType;
-      
-        }
-
-        .attribute_organization 
-        {
-            width: 185px;
-        }
-
-        .attribute_description
-        {
-            margin-top: -25px;
-            margin-left: 3cm;
-            width: 400px;
-            height: 100px;
-        }
-
-        .Button
-        {
-            font-family: $fontType;
-            background: $button-color;
-            margin-left: 80px;
-            width: 173px;
-            height: 46px;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 20px;
-            border:0;
-            outline: none;
-            margin-top: 10mm;
-            margin-left: 12cm;
-        }   
+   .activity__attribute
+   {
+    padding:3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    p
+    {
+     font-family: $fontType;
     }
+    .attribute__organization 
+    {
+     width: 185px;
+    }
+    .attribute__description
+    {
+     margin-top: -25px;
+     margin-left: 3cm;
+     width: 400px;
+     height: 100px;     
+    }
+    .button
+    {
+     font-family: $fontType;
+     background: $button-color;
+     margin-left: 80px;  
+     width: 173px;
+     height: 46px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 20px;
+     border:0;
+     outline: none;
+     margin-top: 10mm;
+     margin-left: 12cm;
+    }   
+   }
+}
+
+@media only screen and (max-width:680px) 
+{
+ .activity
+ {
+  width: 92%;
+  .activity__attribute .attribute__description
+  {
+   width: 92%;
+  }
  }
+}
 
- @media only screen and (max-width:680px) {
-    .Activity{
-     width: 92%;
-     .Activity_attribute .attribute_description{
-        width: 92%;
-       }
-    }
+@media only screen and (max-width:680px) 
+{
+ .activity
+ {
+   width: 92%;
+   .activity__attribute .button
+   {
+    margin-left: 6cm;
    }
-
-   @media only screen and (max-width:680px) {
-    .Activity{
-     width: 92%;
-     .Activity_attribute .Button{
-        margin-left: 6cm;
-       }
-    }
-   }
+ }
+}
 
  

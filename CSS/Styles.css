@@ -16,25 +16,84 @@
 
 .main__nav a { text-decoration: none; color: black; }
 
-.Activity { background: #EDF6FC; margin: auto; margin-top: 100px; margin-bottom: 50px; width: 700px; }
+.activity {
+  background: #EDF6FC;
+  margin: auto;
+  margin-top: 50px;
+  width: 700px;
+}
 
-.Activity .Activity_tittle { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 30px; font-family: "Signika Negative", sans-serif; padding-top: 20px; }
+.activity .activity__tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-family: "Signika Negative", sans-serif;
+  padding-top: 20px;
+}
 
-.Activity .Activity_attribute { padding: 3%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.activity .activity__attribute {
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
-.Activity .Activity_attribute p { font-family: "Signika Negative", sans-serif; }
+.activity .activity__attribute p {
+  font-family: "Signika Negative", sans-serif;
+}
 
-.Activity .Activity_attribute .attribute_organization { width: 185px; }
+.activity .activity__attribute .attribute__organization {
+  width: 185px;
+}
 
-.Activity .Activity_attribute .attribute_description { margin-top: -25px; margin-left: 3cm; width: 400px; height: 100px; }
+.activity .activity__attribute .attribute__description {
+  margin-top: -25px;
+  margin-left: 3cm;
+  width: 400px;
+  height: 100px;
+}
 
-.Activity .Activity_attribute .Button { font-family: "Signika Negative", sans-serif; background: #6D79E2; margin-left: 80px; width: 173px; height: 46px; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; border: 0; outline: none; margin-top: 10mm; margin-left: 12cm; }
+.activity .activity__attribute .button {
+  font-family: "Signika Negative", sans-serif;
+  background: #6D79E2;
+  margin-left: 80px;
+  width: 173px;
+  height: 46px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  margin-top: 10mm;
+  margin-left: 12cm;
+}
 
-@media only screen and (max-width: 680px) { .Activity { width: 92%; }
-  .Activity .Activity_attribute .attribute_description { width: 92%; } }
+@media only screen and (max-width: 680px) {
+  .activity {
+    width: 92%;
+  }
+  .activity .activity__attribute .attribute__description {
+    width: 92%;
+  }
+}
 
-@media only screen and (max-width: 680px) { .Activity { width: 92%; }
-  .Activity .Activity_attribute .Button { margin-left: 6cm; } }
+@media only screen and (max-width: 680px) {
+  .activity {
+    width: 92%;
+  }
+  .activity .activity__attribute .button {
+    margin-left: 6cm;
+  }
+}
 
 h2 { text-align: center; font-family: "Signika Negative", sans-serif; }
 
