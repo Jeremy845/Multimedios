@@ -30,7 +30,7 @@ border-radius: 20px;
       height:100px;
   }*/
   
-  #btn__filter{
+  #filter__boton{
     background-color: #DCE2FC;
     margin-left:30px;
 	cursor:pointer;
@@ -40,13 +40,13 @@ border-radius: 20px;
 
   }
    
-  #home__container{ 
+  #activities{ 
    
     display:flex;
     flex-wrap:wrap;
     margin-bottom:20px;
 
-     .activity__container {
+     .activity {
         background:#EDF6FC;
           width:600px;
           margin:auto;
@@ -66,7 +66,7 @@ border-radius: 20px;
 			align-items: center;
           }
         
-         .button__activity{
+         .activity__botton{
           @include botones();
 			text-align:center;
 			cursor: pointer;
