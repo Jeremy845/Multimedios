@@ -247,3 +247,16 @@ cursive;
 		opacity: 1;
 	}
 }
+
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+	display:none;
+	background-repeat:no-repeat;
+	font-size:20px;
+	color:$bordercolor;
+	cursor:pointer;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	z-index:2;
+  }

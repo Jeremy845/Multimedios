@@ -156,6 +156,9 @@ home
 @keyframes entradaInputs { from { opacity: 0; }
   to { opacity: 1; } }
 
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba { display: none; background-repeat: no-repeat; font-size: 20px; color: #9495FF; cursor: pointer; position: fixed; bottom: 10px; right: 10px; z-index: 2; }
+
 .login { width: 450px; margin: auto; margin-top: 100px; font-family: "Signika Negative", sans-serif; }
 
 .login .login__container { background: #EDF6FC; padding: 4%; text-align: center; -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); margin-bottom: 20px; }
