@@ -3,18 +3,21 @@ home
 */
 $letterColor:black;
 $bordercolor: #9495FF;
-$fontType:'Signika Negative', sans-serif;
-$logo-font: 'Amatic SC', cursive;
+$fontType:'Signika Negative',
+sans-serif;
+$logo-font: 'Amatic SC',
+cursive;
+
 /*  Es una funcion para los botones*/
 @mixin botones {
-	font-family:'Signika Negative', sans-serif;
+	font-family: 'Signika Negative', sans-serif;
 
-  background:  #6CCCFA;
-  color: black;
-  font-size: 14px;
-  border: 1px solid #6CCCFA;
-box-sizing: border-box;
-border-radius: 20px;
+	background: #6CCCFA;
+	color: black;
+	font-size: 14px;
+	border: 1px solid #6CCCFA;
+	box-sizing: border-box;
+	border-radius: 20px;
 
 }
 
@@ -29,73 +32,78 @@ border-radius: 20px;
     background-position:top; 
       height:100px;
   }*/
-  
-  #filter__boton{
-    background-color: #DCE2FC;
-    margin-left:30px;
-	cursor:pointer;
-   transform:scale(1.1);
-    width:100px;
-   @include botones();
 
-  }
-   
-  #activities{ 
-   
-    display:flex;
-    flex-wrap:wrap;
-    margin-bottom:20px;
+#filter__boton {
+	background-color: #DCE2FC;
+	margin-left: 30px;
+	cursor: pointer;
+	transform: scale(1.1);
+	width: 100px;
+	@include botones();
 
-     .activity {
-        background:#EDF6FC;
-          width:600px;
-          margin:auto;
-          padding:5px;
-          border: 1px solid $bordercolor;
-          margin-top:20px;
-           img{
-            width:40%; height:50%;
-            transform:scale(1.2);
-     margin-left:30%;
-      margin-top: 30px;
-  
-          }
-            p{
-              display:flex;
-            width:240px;
+}
+
+#activities {
+
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+
+	.activity {
+		background: #EDF6FC;
+		width: 600px;
+		margin: auto;
+		padding: 5px;
+		border: 1px solid $bordercolor;
+		margin-top: 20px;
+
+		img {
+			width: 40%;
+			height: 50%;
+			transform: scale(1.2);
+			margin-left: 30%;
+			margin-top: 30px;
+
+		}
+
+		p {
+			display: flex;
+			width: 240px;
 			align-items: center;
-          }
-        
-         .activity__botton{
-          @include botones();
-			text-align:center;
-			cursor: pointer;
-            height:40px;
-			margin-top:40px;
-			width: 140px;;
-			margin-left:34%;
-          }
-          
-        }
-        & .activity__container:hover{
-          transform: scale(1.01);
-  
-          }
-  }
-  
-  @media only screen and (max-width:680px) {
-	#home__container .activity__container{
-    width:92%;
-    
-  }
-  }
+		}
 
-  /* ------------------------- */
+		.activity__botton {
+			@include botones();
+			text-align: center;
+			cursor: pointer;
+			height: 40px;
+			margin-top: 40px;
+			width: 140px;
+			;
+			margin-left: 34%;
+		}
+
+	}
+
+	& .activity__container:hover {
+		transform: scale(1.01);
+
+	}
+}
+
+@media only screen and (max-width:680px) {
+	#home__container .activity__container {
+		width: 92%;
+
+	}
+}
+
+/* ------------------------- */
 /* POPUP */
 /* ------------------------- */
 
 .overlay {
-	background: rgba(0,0,0,.3);
+	background: rgba(0, 0, 0, .3);
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -113,13 +121,13 @@ border-radius: 20px;
 
 .popup {
 	background: #F8F8F8;
-	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
 	border-radius: 3px;
 	font-family: 'Montserrat', sans-serif;
 	padding: 20px;
 	text-align: center;
 	width: 600px;
-	
+
 	transition: .3s ease all;
 	transform: scale(0.7);
 	opacity: 0;
@@ -139,7 +147,7 @@ border-radius: 20px;
 }
 
 .popup h3 {
-  font-family: $logo-font;
+	font-family: $logo-font;
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 10px;
@@ -147,7 +155,7 @@ border-radius: 20px;
 }
 
 .popup h4 {
-  font-family: $fontType;
+	font-family: $fontType;
 	font-size: 26px;
 	font-weight: 300;
 	margin-bottom: 40px;
@@ -183,16 +191,28 @@ border-radius: 20px;
 }
 
 .popup form .btn-submit:hover {
-	background: rgba(94,125,227, .9);
+	background: rgba(94, 125, 227, .9);
 }
 
 /* ------------------------- */
 /* ANIMACIONES */
 /* ------------------------- */
-.popup.active {	transform: scale(1); opacity: 1; }
-.popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
-.popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
-.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+.popup.active {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.popup.active h3 {
+	animation: entradaTitulo .8s ease .5s forwards;
+}
+
+.popup.active h4 {
+	animation: entradaSubtitulo .8s ease .5s forwards;
+}
+
+.popup.active .contenedor-inputs {
+	animation: entradaInputs 1s linear 1s forwards;
+}
 
 @keyframes entradaTitulo {
 	from {
@@ -219,6 +239,11 @@ border-radius: 20px;
 }
 
 @keyframes entradaInputs {
-	from { opacity: 0; }
-	to { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }

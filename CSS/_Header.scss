@@ -1,59 +1,62 @@
 $navbar-background-color:#EDF6FC;
-$logo-font: 'Amatic SC', cursive;
-$font-type: 'Signika Negative', sans-serif;
+$logo-font: 'Amatic SC',
+cursive;
+$font-type: 'Signika Negative',
+sans-serif;
 $text-color:black;
 
 /* tipo le letra */
 
 
 /*  nav principal */
-.main__nav{
-  margin:0px;
-    background-color:$navbar-background-color;
-font-family: $logo-font;
-font-size: 30px;
-    display:flex;
-      justify-content:space-around;
-      align-items: center;
-     & .flex-image{
-       justify-content: flex-start;
-        margin: 10px;
-      }
+.main__nav {
+  margin: 0px;
+  background-color: $navbar-background-color;
+  font-family: $logo-font;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-     
-      
-       & .main__nav--left{
-        display:flex;
-        align-items: center;
-        justify-content:space-evenly;
-        
-          width:38%;
-          &  p:hover  {
-            transform: scale(1.1);
-          }
-          
-      }
-      & .main__nav--right{
-        display:flex;
-       justify-content:space-evenly;
-       width:62%;
-       font-size: 16px;
-       font-family:$font-type;
-       align-items:center;
+  & .flex-image {
+    justify-content: flex-start;
+    margin: 10px;
+  }
 
-       &  p:hover  {
-        transform: scale(1.06);
-      }
-      &  p{
-        text-align:center;
-        }
-     }
- 
-   & a{
-    text-decoration: none;
-color:$text-color;
 
-}
+
+  & .main__nav--left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 38%;
+
+    & a:hover {
+      transform: scale(1.1);
+    }
 
   }
-  
+
+  & .main__nav--right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 62%;
+    font-size: 16px;
+    font-family: $font-type;
+    align-items: center;
+
+    & a:hover {
+      transform: scale(1.06);
+    }
+
+  }
+
+  & a {
+    text-decoration: none;
+    color: $text-color;
+    text-align: center;
+
+  }
+
+}

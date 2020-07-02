@@ -1,92 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/normalize.css">
-  
-    <link rel="stylesheet" href="../CSS/Styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/normalize.css">
 
-    
-    <script src="../JS/jquery-3.5.1.min.js"></script>
-    <script src="../JS/Users.js"></script>
-    <script src="../JS/AddUser.js"></script>
-    <!--  <script src="../JS/functions.js"></script> -->
+  <link rel="stylesheet" href="../CSS/Styles.css">
 
-    <title>Registrate</title>
+
+  <script src="../JS/jquery-3.5.1.min.js"></script>
+  <script src="../JS/Users.js"></script>
+  <script src="../JS/AddUser.js"></script>
+  <!--  <script src="../JS/functions.js"></script> -->
+
+  <title>Registrate</title>
 </head>
+
 <body>
-    <!--Header-->
-    <header class="header">
-      <nav class="main__nav">
-        <section class="main__nav--left">
-         <a class="" href="">
-          <img class="flex-image hvr-float-shadow" width="72px" height="73px" src="../Images/Imagen1.png" alt="Yo me apunto!">
-         </a>
-                
-         <p> <a  href="../HTML/index.html"> YO ME APUNTO!</a></p>
-               </section>
-             <section class="main__nav--right">
-               
-               <p> <a  href="index.html">Inicio </a></p>
-               <p><a  href="contacto.html"> ¿Quienes Somos? </a></p>
-               <p > <a id="userName" href="login.html">Iniciar Sesión </a></p>
-               <img class="flex-fbIcon hvr-float-shadow" width="48 px" height="51 px" src="../Images/FB_Icon.png" alt="Facebook">
-               <img class="48 px hvr-float-shadow" height="51 px" src="../Images/IG_Icon.png" alt="Instagram">
-             </section>
-       </nav>
-    
-    
-    </header>
-    <!--Header-->
+  <!--Header-->
+  <header class="header">
+    <nav class="main__nav">
+      <section class="main__nav--left">
+        <a class="" href="">
+          <img class="flex-image hvr-float-shadow" width="72px" height="73px" src="../Images/Imagen1.png"
+            alt="Yo me apunto!">
+        </a>
 
-        <!--Sign-in-->
-        <main class="signinBox">
-            <h2 class="signinBox__form-tittle">Registrate</h2>
-            <section class="singinBox__form">
-               
-                    
-                        <p>Nombre: <input id="name"  type="text"></p>
-                       
-                    
-                      
-                        <p>Apellido: <input id="lastname" type="text"></p>
-                        
-                      
+        <p> <a href="../HTML/index.html"> YO ME APUNTO!</a></p>
+      </section>
+      <section class="main__nav--right">
 
-                    
-                        <p>Correo: <input id="email" type="email"></p>
-                      
-                      
-                      
-                        <p>Telefono: <input id="number"  type="text"></p>
-                      
-                      
-                   
-                      <section class="singin__form-password">
-               
-                <p>Contraseña: <input id="pass" type="password"></p>
-               
-                        
-                     <section class="singin_form-confirm_password">
-                        <p>Confirmar Contraseña: <input id="confpass" type="password"></p>
-                     </section>
-                  
-                        
-                        <button class="signIn__Button hvr-float-shadow" onclick="getData()">Registrarse</button>
-                        <p>Ya tienes una cuenta?  <a class="hvr-float-shadow" href="../HTML/login.html">Ingresa</a></p>
-                    
-                      </section><!--signinpassword-->
-               
-                       
-            
-            <section><!--singin__form-->
-            
-      
-          </main><!--singinbox-->
-    
+        <p> <a href="index.html">Inicio </a></p>
+        <p><a href="contacto.html"> ¿Quienes Somos? </a></p>
+        <p> <a id="userName" href="login.html">Iniciar Sesión </a></p>
+        <img class="flex-fbIcon hvr-float-shadow" width="48 px" height="51 px" src="../Images/FB_Icon.png"
+          alt="Facebook">
+        <img class="48 px hvr-float-shadow" height="51 px" src="../Images/IG_Icon.png" alt="Instagram">
+      </section>
+    </nav>
+
+
+  </header>
+  <!--Header-->
+
+  <!--Sign-in-->
+  <main class="signinBox">
+    <h2 class="signinBox__form-tittle">Registrate</h2>
+    <section class="singinBox__form">
+
+
+      <p>Nombre: <input id="name" type="text"></p>
+
+
+
+      <p>Apellido: <input id="lastname" type="text"></p>
+
+
+
+
+      <p>Correo: <input id="email" type="email"></p>
+
+
+
+      <p>Telefono: <input id="number" type="text"></p>
+
+
+
+      <section class="singin__form-password">
+
+        <p>Contraseña: <input id="pass" type="password"></p>
+
+
+        <section class="singin_form-confirm_password">
+          <p>Confirmar Contraseña: <input id="confpass" type="password"></p>
+        </section>
+
+
+        <button class="signIn__Button hvr-float-shadow" onclick="getData()">Registrarse</button>
+        <p>Ya tienes una cuenta? <a class="hvr-float-shadow" href="../HTML/login.html">Ingresa</a></p>
+
+      </section>
+      <!--signinpassword-->
+
+
+
+      <section>
+        <!--singin__form-->
+
+
+  </main>
+  <!--singinbox-->
+
 </body>
 
 

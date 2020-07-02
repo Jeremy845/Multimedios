@@ -35,7 +35,7 @@
   width: 38%;
 }
 
-.main__nav .main__nav--left p:hover {
+.main__nav .main__nav--left a:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -55,18 +55,15 @@
           align-items: center;
 }
 
-.main__nav .main__nav--right p:hover {
+.main__nav .main__nav--right a:hover {
   -webkit-transform: scale(1.06);
           transform: scale(1.06);
-}
-
-.main__nav .main__nav--right p {
-  text-align: center;
 }
 
 .main__nav a {
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 .activity {
