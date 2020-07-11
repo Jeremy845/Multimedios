@@ -1,39 +1,36 @@
-$font: 'Signika Negative', sans-serif;
+$font: 'Signika Negative',
+sans-serif;
 
-h2{
+h2 {
     text-align: center;
     font-family: $font;
-    margin-top:50px;
+    margin-top: 50px;
 
 }
 
-article{
-    background:  #EDF6FC;
+article {
+    background: #EDF6FC;
     width: 500px;
     margin: auto;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
+
     & p {
-        padding:10px;
+        padding: 10px;
         width: 200px;
         font-family: $font;
         text-align: justify;
-      
-        }
-}
 
-@media only screen and (max-width:680px) 
-{
-  article 
-  {
-   width: 92%;
-    p
-    {
-     width: 92%;
     }
-   }
 }
 
+@media only screen and (max-width:680px) {
+    article {
+        width: 92%;
 
-  
+        p {
+            width: 92%;
+        }
+    }
+}

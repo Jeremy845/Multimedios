@@ -17,37 +17,20 @@ footer {
   align-items: center;
 
 
-     a {
-      margin: 18px;
-      text-decoration: none;
-      color: black;
-      
-    }
-    a:hover {
-      transform: scale(1.04);
-      text-decoration: underline;
-    }
+  a {
+    margin: 18px;
+    text-decoration: none;
+    color: black;
 
-
-  
-
-}
-
-/*
-#footerHome{
-  position: absolute;
-  bottom:inherit;
-}
-
-#footerAct{
-  position: absolute;
-  bottom: 0cm;
-}
-
-@media only screen and (max-width:680px) {
-  #footerAct{
-    margin-bottom: -13cm;
   }
- }
 
-*/
+  a:hover {
+    transform: scale(1.04);
+    text-decoration: underline;
+  }
+
+
+
+
+}
+

@@ -23,17 +23,6 @@ cursive;
 }
 
 
-/*
-#headerHome{
-  background-image:url(/Images/acti1.jpeg);  
-    text-align:center;
-    margin:30px;
-    padding:40px;
-    background-size: cover;
-    background-position:top; 
-      height:100px;
-  }*/
-
 #filter__boton {
 	background-color: #DCE2FC;
 	margin-left: 30px;
@@ -250,14 +239,14 @@ cursive;
 }
 
 /*Flecha para hacer la pagina hacia arriba*/
-.ir-arriba{
-	display:none;
-	background-repeat:no-repeat;
-	font-size:20px;
-	color:$bordercolor;
-	cursor:pointer;
-	position:fixed;
-	bottom:10px;
-	right:10px;
-	z-index:2;
-  }
+.ir-arriba {
+	display: none;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	color: $bordercolor;
+	cursor: pointer;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 2;
+}
